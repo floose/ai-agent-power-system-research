@@ -1,0 +1,3667 @@
+{
+  "window": [
+    "2026-09-12",
+    "2026-10-12"
+  ],
+  "papers": [
+    {
+      "doi": "10.1002/smtd.71113",
+      "topics": [
+        "optimal-power-flow",
+        "load-forecasting",
+        "dynamic-line-rating",
+        "bess",
+        "converter-control"
+      ],
+      "title": "Unveiling Hidden Patterns in Electrode\u2010Electrolyte Interphase Chemistry and Architecture Through Machine Learning\u2010Assisted Mass Spectrometry Analysis",
+      "journal": "Small Methods",
+      "publisher": "Wiley",
+      "authors": [
+        {
+          "given": "Tara",
+          "family": "Ingebrand",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Materials Science and Engineering Program and Walker Department of Mechanical Engineering The University of Texas at Austin  Austin Texas USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0237-9563",
+          "authenticated-orcid": false,
+          "given": "Arumugam",
+          "family": "Manthiram",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Materials Science and Engineering Program and Walker Department of Mechanical Engineering The University of Texas at Austin  Austin Texas USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "publication_date": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ],
+      "url": "https://doi.org/10.1002/smtd.71113",
+      "verification": "Crossref DOI and journal-article metadata only",
+      "peer_review": "unconfirmed",
+      "relevance": "requires expert screening",
+      "source_metadata": {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              12
+            ]
+          ],
+          "date-time": "2026-10-12T08:45:31Z",
+          "timestamp": 1791794731971,
+          "version": "4.3.4"
+        },
+        "reference-count": 58,
+        "publisher": "Wiley",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  10,
+                  12
+                ]
+              ],
+              "date-time": "2026-10-12T00:00:00Z",
+              "timestamp": 1791763200000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  10,
+                  12
+                ]
+              ],
+              "date-time": "2026-10-12T00:00:00Z",
+              "timestamp": 1791763200000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1"
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "onlinelibrary.wiley.com"
+          ],
+          "crossmark-restriction": true
+        },
+        "short-container-title": [
+          "Small Methods"
+        ],
+        "abstract": "<jats:title>ABSTRACT</jats:title>\n                  <jats:p>Electrode\u2010electrolyte interphases (EEIs) govern battery performance, yet the interplay between their chemical composition and spatial organization remains challenging to resolve. Time\u2010of\u2010flight secondary ion mass spectrometry (TOF\u2010SIMS) provides rich 3D chemical depth profiles of these interfaces, yet conventional analyses simplify the complexity by collapsing the data into 1D depth profiles or 2D maps, obscuring critical spatial features. Here, we apply a machine\u2010learning\u2010based approach directly to 3D TOF\u2010SIMS depth profiles, leveraging their full spatial and chemical richness to investigate the interphase structure and chemistry more comprehensively than conventional analyses. Principal component analysis (PCA) identifies fragments that dominate chemical heterogeneity across the EEI, reveals correlated and anticorrelated spatial distributions, and enables direct comparison of average interphase chemistry and chemical variability. Building on this, t\u2010distributed stochastic neighbor embedding (t\u2010SNE) and uniform manifold approximation and projection (UMAP) resolve stratified structures and fine\u2010scale spatial interphase variations. Finally, applying PCA to fragment\u2010specific thickness maps enables comparison of interphase thickness heterogeneity and identifies the chemical species responsible for local thickness variations. Together, the approach creates a generalized framework for extracting chemically and spatially meaningful information from complex TOF\u2010SIMS datasets, linking interphase chemistry to electrochemical behavior and guiding the design of uniform interphases for advanced battery systems.</jats:p>",
+        "DOI": "10.1002/smtd.71113",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              12
+            ]
+          ],
+          "date-time": "2026-10-12T07:58:27Z",
+          "timestamp": 1791791907000
+        },
+        "update-policy": "https://doi.org/10.1002/crossmark_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Unveiling Hidden Patterns in Electrode\u2010Electrolyte Interphase Chemistry and Architecture Through Machine Learning\u2010Assisted Mass Spectrometry Analysis"
+        ],
+        "prefix": "10.1002",
+        "author": [
+          {
+            "given": "Tara",
+            "family": "Ingebrand",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Materials Science and Engineering Program and Walker Department of Mechanical Engineering The University of Texas at Austin  Austin Texas USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-0237-9563",
+            "authenticated-orcid": false,
+            "given": "Arumugam",
+            "family": "Manthiram",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Materials Science and Engineering Program and Walker Department of Mechanical Engineering The University of Texas at Austin  Austin Texas USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "311",
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              12
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "e_1_2_9_2_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1039/C7EE02555F"
+          },
+          {
+            "key": "e_1_2_9_3_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1002/adfm.201909887"
+          },
+          {
+            "key": "e_1_2_9_4_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1002/aenm.202200398"
+          },
+          {
+            "key": "e_1_2_9_5_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/acs.accounts.7b00460"
+          },
+          {
+            "key": "e_1_2_9_6_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1002/aenm.201703082"
+          },
+          {
+            "key": "e_1_2_9_7_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/jacs.7b09531"
+          },
+          {
+            "key": "e_1_2_9_8_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/acs.langmuir.4c00113"
+          },
+          {
+            "key": "e_1_2_9_9_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1038/ncomms14589"
+          },
+          {
+            "key": "e_1_2_9_10_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/acsami.3c02770"
+          },
+          {
+            "key": "e_1_2_9_11_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/acsami.0c11190"
+          },
+          {
+            "key": "e_1_2_9_12_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/acsami.0c00900"
+          },
+          {
+            "key": "e_1_2_9_13_1",
+            "article-title": "Regulating Anode\u2010Electrolyte Interphasial Reactions by Zwitterionic Binder Chemistry in Lithium\u2010Ion Batteries With High\u2010Nickel Layered Oxide Cathodes and Silicon\u2010Graphite Anodes",
+            "volume": "63",
+            "author": "Jin B.",
+            "year": "2024",
+            "journal-title": "Angewandte Chemie International Edition"
+          },
+          {
+            "key": "e_1_2_9_14_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/acs.nanolett.8b03637"
+          },
+          {
+            "key": "e_1_2_9_15_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1116/6.0002850"
+          },
+          {
+            "key": "e_1_2_9_16_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.nimb.2014.02.098"
+          },
+          {
+            "key": "e_1_2_9_17_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1002/aenm.202502617"
+          },
+          {
+            "key": "e_1_2_9_18_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/acsami.2c00842"
+          },
+          {
+            "key": "e_1_2_9_19_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1039/D3CP02646A"
+          },
+          {
+            "key": "e_1_2_9_20_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/acsami.3c08829"
+          },
+          {
+            "key": "e_1_2_9_21_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/acs.jpcc.0c10398"
+          },
+          {
+            "key": "e_1_2_9_22_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1002/aenm.201901152"
+          },
+          {
+            "key": "e_1_2_9_23_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/jacs.0c10044"
+          },
+          {
+            "key": "e_1_2_9_24_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1002/aenm.202302722"
+          },
+          {
+            "key": "e_1_2_9_25_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/acsami.3c15723"
+          },
+          {
+            "key": "e_1_2_9_26_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1038/s42004\u2010025\u201001426\u20100"
+          },
+          {
+            "key": "e_1_2_9_27_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1002/adfm.202213164"
+          },
+          {
+            "key": "e_1_2_9_28_1",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1116/1.4948371",
+            "article-title": "Time\u2010of\u2010Flight Secondary Ion Mass Spectrometry as a Screening Method for the Identification of Degradation Products in Lithium\u2010Ion Batteries\u2014A Multivariate Data Analysis Approach",
+            "volume": "34",
+            "author": "Heller D.",
+            "year": "2016",
+            "journal-title": "Journal of Vacuum Science & Technology B"
+          },
+          {
+            "key": "e_1_2_9_29_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1002/adma.202305645"
+          },
+          {
+            "key": "e_1_2_9_30_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/acsami.3c09643"
+          },
+          {
+            "key": "e_1_2_9_31_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1002/admi.202300640"
+          },
+          {
+            "key": "e_1_2_9_32_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/acs.chemmater.9b00770"
+          },
+          {
+            "key": "e_1_2_9_33_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/am506517j"
+          },
+          {
+            "key": "e_1_2_9_34_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/ac071019o"
+          },
+          {
+            "key": "e_1_2_9_35_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1039/C9JA00164F"
+          },
+          {
+            "key": "e_1_2_9_36_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1002/adma.202311573"
+          },
+          {
+            "key": "e_1_2_9_37_1",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1002/ange.202313437",
+            "article-title": "Irreparable Interphase Chemistry Degradation Induced by Temperature Pulse in Lithium\u2010Ion Batteries",
+            "volume": "135",
+            "author": "Cui Z.",
+            "year": "2023",
+            "journal-title": "Angewandte Chemie"
+          },
+          {
+            "key": "e_1_2_9_38_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.mattod.2025.06.040"
+          },
+          {
+            "key": "e_1_2_9_39_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1002/wics.101"
+          },
+          {
+            "key": "e_1_2_9_40_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1038/s43586\u2010022\u201000184\u2010w"
+          },
+          {
+            "key": "e_1_2_9_41_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1098/rsta.2015.0202"
+          },
+          {
+            "key": "e_1_2_9_42_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1039/B402607C"
+          },
+          {
+            "key": "e_1_2_9_43_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1116/6.0002477"
+          },
+          {
+            "key": "e_1_2_9_44_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1038/s41560\u2010023\u201001252\u20105"
+          },
+          {
+            "key": "e_1_2_9_45_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/acsami.1c04788"
+          },
+          {
+            "key": "e_1_2_9_46_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1039/C9TA05063A"
+          },
+          {
+            "key": "e_1_2_9_47_1",
+            "unstructured": "L.McInnes J.Healy andJ.Melville \u201cUMAP: Uniform Manifold Approximation and Projection for Dimension Reduction \u201d (2020) https://doi.org/10.48550/arXiv.1802.03426."
+          },
+          {
+            "key": "e_1_2_9_48_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1038/s41592\u2010024\u201002301\u2010x"
+          },
+          {
+            "key": "e_1_2_9_49_1",
+            "first-page": "2579",
+            "article-title": "Visualizing High\u2010Dimensional Data Using t\u2010SNE",
+            "volume": "9",
+            "author": "Maaten L.",
+            "year": "2008",
+            "journal-title": "Journal of Machine Learning Research"
+          },
+          {
+            "key": "e_1_2_9_50_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/cr500003w"
+          },
+          {
+            "key": "e_1_2_9_51_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.xcrp.2022.100868"
+          },
+          {
+            "key": "e_1_2_9_52_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1002/aenm.202200398"
+          },
+          {
+            "key": "e_1_2_9_53_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1021/jacs.4c16561"
+          },
+          {
+            "key": "e_1_2_9_54_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1149/1945\u20107111/ac5304"
+          },
+          {
+            "key": "e_1_2_9_55_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1149/2.1051507jes"
+          },
+          {
+            "key": "e_1_2_9_56_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.pecs.2021.100953"
+          },
+          {
+            "key": "e_1_2_9_57_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1002/advs.202404887"
+          },
+          {
+            "key": "e_1_2_9_58_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1002/aenm.202203307"
+          },
+          {
+            "key": "e_1_2_9_59_1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1039/C8TA07997H"
+          }
+        ],
+        "container-title": [
+          "Small Methods"
+        ],
+        "original-title": [],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/smtd.71113",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1002/smtd.71113",
+            "content-type": "application/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/smtd.71113",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              12
+            ]
+          ],
+          "date-time": "2026-10-12T07:58:28Z",
+          "timestamp": 1791791908000
+        },
+        "score": 1,
+        "resource": {
+          "primary": {
+            "URL": "https://onlinelibrary.wiley.com/doi/10.1002/smtd.71113"
+          }
+        },
+        "subtitle": [],
+        "short-title": [],
+        "issued": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              12
+            ]
+          ]
+        },
+        "references-count": 58,
+        "alternative-id": [
+          "10.1002/smtd.71113"
+        ],
+        "URL": "https://doi.org/10.1002/smtd.71113",
+        "archive": [
+          "Portico"
+        ],
+        "relation": {},
+        "ISSN": [
+          "2366-9608",
+          "2366-9608"
+        ],
+        "issn-type": [
+          {
+            "value": "2366-9608",
+            "type": "print"
+          },
+          {
+            "value": "2366-9608",
+            "type": "electronic"
+          }
+        ],
+        "subject": [],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              12
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "2026-06-26",
+            "order": 0,
+            "name": "received",
+            "label": "Received",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          },
+          {
+            "value": "2026-10-05",
+            "order": 2,
+            "name": "accepted",
+            "label": "Accepted",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          },
+          {
+            "value": "2026-10-12",
+            "order": 3,
+            "name": "published",
+            "label": "Published",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          }
+        ],
+        "article-number": "e71113"
+      }
+    },
+    {
+      "doi": "10.1007/s10915-026-03482-7",
+      "topics": [
+        "optimal-power-flow",
+        "load-forecasting",
+        "dynamic-line-rating",
+        "bess",
+        "converter-control"
+      ],
+      "title": "Orthogonally Constrained Operator Learning for Bias-Aware Digital Twins: A PBDW-DeepONet Framework",
+      "journal": "Journal of Scientific Computing",
+      "publisher": "Springer Science and Business Media LLC",
+      "authors": [
+        {
+          "ORCID": "https://orcid.org/0009-0008-9966-323X",
+          "authenticated-orcid": false,
+          "given": "Stiven Briand God",
+          "family": "Massala",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8361-0757",
+          "authenticated-orcid": false,
+          "given": "Ludovic",
+          "family": "Chamoin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8931-9058",
+          "authenticated-orcid": false,
+          "given": "Massimo",
+          "family": "Pica Ciamarra",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "publication_date": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ],
+      "url": "https://doi.org/10.1007/s10915-026-03482-7",
+      "verification": "Crossref DOI and journal-article metadata only",
+      "peer_review": "unconfirmed",
+      "relevance": "requires expert screening",
+      "source_metadata": {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              12
+            ]
+          ],
+          "date-time": "2026-10-12T17:50:53Z",
+          "timestamp": 1791827453112,
+          "version": "4.3.4"
+        },
+        "reference-count": 56,
+        "publisher": "Springer Science and Business Media LLC",
+        "issue": "3",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  10,
+                  12
+                ]
+              ],
+              "date-time": "2026-10-12T00:00:00Z",
+              "timestamp": 1791763200000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  10,
+                  12
+                ]
+              ],
+              "date-time": "2026-10-12T00:00:00Z",
+              "timestamp": 1791763200000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+          }
+        ],
+        "funder": [
+          {
+            "DOI": "10.13039/501100001381",
+            "name": "National Research Foundation Singapore",
+            "doi-asserted-by": "publisher",
+            "id": [
+              {
+                "id": "10.13039/501100001381",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "link.springer.com"
+          ],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "J Sci Comput"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              12
+            ]
+          ]
+        },
+        "DOI": "10.1007/s10915-026-03482-7",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              12
+            ]
+          ],
+          "date-time": "2026-10-12T17:26:35Z",
+          "timestamp": 1791825995000
+        },
+        "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Orthogonally Constrained Operator Learning for Bias-Aware Digital Twins: A PBDW-DeepONet Framework"
+        ],
+        "prefix": "10.1007",
+        "volume": "109",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0008-9966-323X",
+            "authenticated-orcid": false,
+            "given": "Stiven Briand God",
+            "family": "Massala",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-8361-0757",
+            "authenticated-orcid": false,
+            "given": "Ludovic",
+            "family": "Chamoin",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-8931-9058",
+            "authenticated-orcid": false,
+            "given": "Massimo",
+            "family": "Pica Ciamarra",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "297",
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              12
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "3482_CR1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.cma.2023.116502",
+            "volume": "418",
+            "author": "A Novoa",
+            "year": "2023",
+            "unstructured": "Novoa, A., Racca, A., Magri, L.: Inferring unknown unknowns: regularized bias-aware ensemble Kalman filter. Comput. Methods Appl. Mech. Eng. 418, 116502 (2023)",
+            "journal-title": "Comput. Methods Appl. Mech. Eng."
+          },
+          {
+            "issue": "1",
+            "key": "3482_CR2",
+            "doi-asserted-by": "publisher",
+            "first-page": "105",
+            "DOI": "10.1007/s11831-018-9301-4",
+            "volume": "27",
+            "author": "F Chinesta",
+            "year": "2020",
+            "unstructured": "Chinesta, F., Cueto, E., Abisset-Chavanne, E., Duval, J.L., El Khaldi, F.: Virtual, digital and hybrid twins: a new paradigm in data-based engineering and engineered data. Archiv. Comput. Methods Eng. 27(1), 105\u2013134 (2020)",
+            "journal-title": "Archiv. Comput. Methods Eng."
+          },
+          {
+            "issue": "5",
+            "key": "3482_CR3",
+            "doi-asserted-by": "publisher",
+            "first-page": "933",
+            "DOI": "10.1002/nme.4747",
+            "volume": "102",
+            "author": "Y Maday",
+            "year": "2015",
+            "unstructured": "Maday, Y., Patera, A., Penn, J.D., Yano, M.: A parameterized-background data-weak approach to variational data assimilation: formulation, analysis, and application to acoustics. Int. J. Numer. Meth. Eng. 102(5), 933\u2013965 (2015)",
+            "journal-title": "Int. J. Numer. Meth. Eng."
+          },
+          {
+            "issue": "1",
+            "key": "3482_CR4",
+            "doi-asserted-by": "publisher",
+            "first-page": "70",
+            "DOI": "10.1115/1.1448332",
+            "volume": "124",
+            "author": "C Prud\u2019Homme",
+            "year": "2002",
+            "unstructured": "Prud\u2019Homme, C., Rovas, D.V., Veroy, K., Machiels, L., Maday, Y., Patera, A.T., Turinici, G.: Reliable real-time solution of parametrized partial differential equations: reduced-basis output bound methods. J. Fluids Eng. 124(1), 70\u201380 (2002)",
+            "journal-title": "J. Fluids Eng."
+          },
+          {
+            "issue": "5",
+            "key": "3482_CR5",
+            "first-page": "1827",
+            "volume": "51",
+            "author": "T Taddei",
+            "year": "2017",
+            "unstructured": "Taddei, T.: An adaptive parametrized-background data-weak approach to variational data assimilation. Math. Models Methods Appl. Sci. 51(5), 1827\u20131858 (2017)",
+            "journal-title": "Math. Models Methods Appl. Sci."
+          },
+          {
+            "issue": "4",
+            "key": "3482_CR6",
+            "doi-asserted-by": "publisher",
+            "first-page": "B669",
+            "DOI": "10.1137/18M116544X",
+            "volume": "41",
+            "author": "Y Maday",
+            "year": "2019",
+            "unstructured": "Maday, Y., Taddei, T.: Adaptive PBDW approach to state estimation: noisy observations; user-defined update spaces. SIAM J. Sci. Comput. 41(4), B669\u2013B693 (2019)",
+            "journal-title": "SIAM J. Sci. Comput."
+          },
+          {
+            "key": "3482_CR7",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Benaceur, A.: A time-dependent parametrized background data-weak approach. In: European Conference on Numerical Mathematics and Advanced Applications, (2019)",
+            "DOI": "10.1007/978-3-030-55874-1_11"
+          },
+          {
+            "key": "3482_CR8",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.cma.2022.115868",
+            "volume": "405",
+            "author": "W Haik",
+            "year": "2023",
+            "unstructured": "Haik, W., Maday, Y., Chamoin, L.: A real-time variational data assimilation method with data-driven model enrichment for time-dependent problems. Comput. Methods Appl. Mech. Eng. 405, 115868 (2023)",
+            "journal-title": "Comput. Methods Appl. Mech. Eng."
+          },
+          {
+            "key": "3482_CR9",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.apm.2024.115761",
+            "volume": "138",
+            "author": "F Galarce",
+            "year": "2025",
+            "unstructured": "Galarce, F., Mura, J., Caiazzo, A.: Bias and multiscale correction methods for variational state estimation. Appl. Math. Model. 138, 115761 (2025)",
+            "journal-title": "Appl. Math. Model."
+          },
+          {
+            "issue": "1",
+            "key": "3482_CR10",
+            "doi-asserted-by": "publisher",
+            "first-page": "1",
+            "DOI": "10.1137/15M1025384",
+            "volume": "5",
+            "author": "P Binev",
+            "year": "2017",
+            "unstructured": "Binev, P., Cohen, A., Dahmen, W., DeVore, R., Petrova, G., Wojtaszczyk, P.: Data assimilation in reduced modeling. SIAM/ASA J. Uncertain. Quantif. 5(1), 1\u201329 (2017)",
+            "journal-title": "SIAM/ASA J. Uncertain. Quantif."
+          },
+          {
+            "key": "3482_CR11",
+            "doi-asserted-by": "publisher",
+            "first-page": "354",
+            "DOI": "10.1016/j.jcp.2018.02.050",
+            "volume": "363",
+            "author": "J-P Argaud",
+            "year": "2018",
+            "unstructured": "Argaud, J.-P., Bouriquet, B., Gong, H., Maday, Y., Mula, O.: Sensor placement in nuclear reactors based on the generalized empirical interpolation method. J. Comput. Phys. 363, 354\u2013370 (2018)",
+            "journal-title": "J. Comput. Phys."
+          },
+          {
+            "key": "3482_CR12",
+            "doi-asserted-by": "publisher",
+            "first-page": "1",
+            "DOI": "10.5802/smai-jcm.68",
+            "volume": "7",
+            "author": "A Benaceur",
+            "year": "2021",
+            "unstructured": "Benaceur, A.: Reducing sensors for transient heat transfer problems by means of variational data assimilation. SMAI J. Comput. Math. 7, 1\u201325 (2021)",
+            "journal-title": "SMAI J. Comput. Math."
+          },
+          {
+            "key": "3482_CR13",
+            "doi-asserted-by": "publisher",
+            "first-page": "3416",
+            "DOI": "10.1002/cnm.3416",
+            "volume": "37",
+            "author": "F Galarce",
+            "year": "2021",
+            "unstructured": "Galarce, F., Mohammadi, B., Maday, Y.: Reconstructing haemodynamics quantities of interest from Doppler ultrasound imaging. Inter. J. Numer. Methods Biomed. Eng. 37, 3416 (2021)",
+            "journal-title": "Inter. J. Numer. Methods Biomed. Eng."
+          },
+          {
+            "key": "3482_CR14",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.cma.2020.113559",
+            "volume": "375",
+            "author": "F Galarce",
+            "year": "2021",
+            "unstructured": "Galarce, F., Mohammadi, B., Gerbeau, J.-F., Maday, Y.: Fast reconstruction of 3D blood flows from Doppler ultrasound images and reduced models. Comput. Methods Appl. Mech. Eng. 375, 113559 (2021)",
+            "journal-title": "Comput. Methods Appl. Mech. Eng."
+          },
+          {
+            "key": "3482_CR15",
+            "volume-title": "Deep Learning",
+            "author": "I Goodfellow",
+            "year": "2016",
+            "unstructured": "Goodfellow, I., Bengio, Y., Courville, A.: Deep Learning. MIT Press, Cambridge, MA, USA (2016)"
+          },
+          {
+            "issue": "7553",
+            "key": "3482_CR16",
+            "doi-asserted-by": "publisher",
+            "first-page": "436",
+            "DOI": "10.1038/nature14539",
+            "volume": "521",
+            "author": "Y LeCun",
+            "year": "2015",
+            "unstructured": "LeCun, Y., Bengio, Y., Hinton, G.: Deep learning. Nature 521(7553), 436\u2013444 (2015)",
+            "journal-title": "Nature"
+          },
+          {
+            "key": "3482_CR17",
+            "doi-asserted-by": "publisher",
+            "first-page": "85",
+            "DOI": "10.1016/j.neunet.2014.09.003",
+            "volume": "61",
+            "author": "J Schmidhuber",
+            "year": "2015",
+            "unstructured": "Schmidhuber, J.: Deep learning in neural networks: an overview. Neural Netw. 61, 85\u2013117 (2015)",
+            "journal-title": "Neural Netw."
+          },
+          {
+            "key": "3482_CR18",
+            "doi-asserted-by": "publisher",
+            "first-page": "686",
+            "DOI": "10.1016/j.jcp.2018.10.045",
+            "volume": "378",
+            "author": "M Raissi",
+            "year": "2019",
+            "unstructured": "Raissi, M., Perdikaris, P., Karniadakis, G.E.: Physics-informed neural networks: a deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations. J. Comput. Phys. 378, 686\u2013707 (2019)",
+            "journal-title": "J. Comput. Phys."
+          },
+          {
+            "key": "3482_CR19",
+            "unstructured": "Paszke, A., Gross, S., Chintala, S., Chanan, G., Yang, E., DeVito, Z., Lin, Z., Desmaison, A., Antiga, L., Lerer, A.: Automatic Differentiation in PyTorch (2017)"
+          },
+          {
+            "key": "3482_CR20",
+            "unstructured": "Bischof, C.H., B\u00fccker, H.M.: Computing derivatives of computer programs. Technical report, Argonne National Lab., IL (US) (2000)"
+          },
+          {
+            "key": "3482_CR21",
+            "unstructured": "Merri\u00ebnboer, B., Wiltschko, A.B., Moldovan, D.: Tangent: automatic differentiation using source code transformation in Python, (2017). arXiv preprint arXiv:1711.02712"
+          },
+          {
+            "issue": "8",
+            "key": "3482_CR22",
+            "doi-asserted-by": "publisher",
+            "first-page": "7439",
+            "DOI": "10.1002/nme.7439",
+            "volume": "125",
+            "author": "A Benady",
+            "year": "2024",
+            "unstructured": "Benady, A., Baranger, E., Chamoin, L.: NN-mCRE: a modified constitutive relation error framework for unsupervised learning of nonlinear state laws with physics-augmented neural networks. Int. J. Numer. Meth. Eng. 125(8), 7439 (2024)",
+            "journal-title": "Int. J. Numer. Meth. Eng."
+          },
+          {
+            "key": "3482_CR23",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.jmps.2021.104703",
+            "volume": "159",
+            "author": "D Klein",
+            "year": "2022",
+            "unstructured": "Klein, D., Fern\u00e1ndez, M., Martin, R., Neff, P., Weeger, O.: Polyconvex anisotropic hyperelasticity with neural networks. J. Mech. Phys. Solids 159, 104703 (2022)",
+            "journal-title": "J. Mech. Phys. Solids"
+          },
+          {
+            "key": "3482_CR24",
+            "doi-asserted-by": "publisher",
+            "first-page": "2738",
+            "DOI": "10.1002/nme.6957",
+            "volume": "123",
+            "author": "F As\u2019ad",
+            "year": "2022",
+            "unstructured": "As\u2019ad, F., Avery, P., Farhat, C.: A mechanics-informed artificial neural network approach in data-driven constitutive modeling. Int. J. Numer. Meth. Eng. 123, 2738\u20132759 (2022)",
+            "journal-title": "Int. J. Numer. Meth. Eng."
+          },
+          {
+            "key": "3482_CR25",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.jmps.2022.105076",
+            "volume": "169",
+            "author": "P Thakolkaran",
+            "year": "2022",
+            "unstructured": "Thakolkaran, P., Joshi, A., Zheng, Y., Flaschel, M., De Lorenzis, L., Kumar, S.: NN-Euclid: deep-learning hyperelasticity without stress data. J. Mech. Phys. Solids 169, 105076 (2022)",
+            "journal-title": "J. Mech. Phys. Solids"
+          },
+          {
+            "key": "3482_CR26",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.cma.2023.115930",
+            "volume": "407",
+            "author": "JN Fuhg",
+            "year": "2022",
+            "unstructured": "Fuhg, J.N., Hamel, C.M., Johnson, K., Jones, R., Bouklas, N.: Modular machine learning-based elastoplasticity: generalization in the context of limited data. Comput. Methods in Appl. Mech. Eng. 407, 115930 (2022)",
+            "journal-title": "Comput. Methods in Appl. Mech. Eng."
+          },
+          {
+            "key": "3482_CR27",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.jmps.2022.104856",
+            "volume": "163",
+            "author": "S Huang",
+            "year": "2021",
+            "unstructured": "Huang, S., He, Z., Chem, R., Reina, C.: Variational Onsager neural networks (VONNs): a thermodynamics-based variational learning strategy for non-equilibrium PDEs. J. Mech. Phys. Solids 163, 104856 (2021)",
+            "journal-title": "J. Mech. Phys. Solids"
+          },
+          {
+            "key": "3482_CR28",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.cma.2021.113763",
+            "volume": "379",
+            "author": "Q Hernandez",
+            "year": "2021",
+            "unstructured": "Hernandez, Q., Bad\u00edas, A., Gonz\u00e1lez, D., Chinesta, F., Cueto, E.: Deep learning of thermodynamics-aware reduced-order models from data. Comput. Methods Appl. Mech. Eng. 379, 113763 (2021)",
+            "journal-title": "Comput. Methods Appl. Mech. Eng."
+          },
+          {
+            "key": "3482_CR29",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Hernandez, Q., Badias, A., Gonzalez, D., Chinesta, F., Cueto, E.: Structure-preserving neural networks, (2020). arXiv preprint arXiv:2004.04653",
+            "DOI": "10.1016/j.jcp.2020.109950"
+          },
+          {
+            "issue": "2",
+            "key": "3482_CR30",
+            "doi-asserted-by": "publisher",
+            "first-page": "227",
+            "DOI": "10.1016/j.joems.2013.07.007",
+            "volume": "22",
+            "author": "HM Ahmed",
+            "year": "2014",
+            "unstructured": "Ahmed, H.M.: Solutions of 2nd-order linear differential equations subject to Dirichlet boundary conditions in a Bernstein polynomial basis. J. Egypt. Math. Soc. 22(2), 227\u2013237 (2014). https://doi.org/10.1016/j.joems.2013.07.007",
+            "journal-title": "J. Egypt. Math. Soc."
+          },
+          {
+            "issue": "9",
+            "key": "3482_CR31",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1088/1402-4896/ad6fe3",
+            "volume": "99",
+            "author": "WM Abd-Elhameed",
+            "year": "2024",
+            "unstructured": "Abd-Elhameed, W.M., Ahmed, H.M., Zaky, M.A., Hafez, R.M.: A new shifted generalized Chebyshev approach for multi-dimensional sinh-Gordon equation. Phys. Scr. 99(9), 095269 (2024). https://doi.org/10.1088/1402-4896/ad6fe3",
+            "journal-title": "Phys. Scr."
+          },
+          {
+            "issue": "1",
+            "key": "3482_CR32",
+            "doi-asserted-by": "publisher",
+            "first-page": "108",
+            "DOI": "10.1186/s13661-023-01796-1",
+            "volume": "2023",
+            "author": "HM Ahmed",
+            "year": "2023",
+            "unstructured": "Ahmed, H.M.: Enhanced shifted Jacobi operational matrices of derivatives: spectral algorithm for solving multiterm variable-order fractional differential equations. Bound. Value Prob. 2023(1), 108 (2023). https://doi.org/10.1186/s13661-023-01796-1",
+            "journal-title": "Bound. Value Prob."
+          },
+          {
+            "issue": "4",
+            "key": "3482_CR33",
+            "doi-asserted-by": "publisher",
+            "first-page": "781",
+            "DOI": "10.3846/mma.2024.19540",
+            "volume": "29",
+            "author": "M Izadi",
+            "year": "2024",
+            "unstructured": "Izadi, M., Roul, P.: An effective numerical algorithm for coupled systems of Emden\u2013Fowler equations via shifted airfoil functions of the first kind. Math. Model. Anal. 29(4), 781\u2013800 (2024). https://doi.org/10.3846/mma.2024.19540",
+            "journal-title": "Math. Model. Anal."
+          },
+          {
+            "key": "3482_CR34",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.cnsns.2022.106912",
+            "volume": "117",
+            "author": "M Izadi",
+            "year": "2023",
+            "unstructured": "Izadi, M., Roul, P.: A new approach based on shifted Vieta-Fibonacci-quasilinearization technique and its convergence analysis for nonlinear third-order Emden\u2013Fowler equation with multi-singularity. Commun. Nonlinear Sci. Numer. Simul. 117, 106912 (2023). https://doi.org/10.1016/j.cnsns.2022.106912",
+            "journal-title": "Commun. Nonlinear Sci. Numer. Simul."
+          },
+          {
+            "key": "3482_CR35",
+            "unstructured": "Yu, A., Becquey, C., Halikias, D., Mallory, M.E., Townsend, A.: Arbitrary-Depth Universal Approximation Theorems for Operator Neural Networks, (2022)"
+          },
+          {
+            "issue": "3",
+            "key": "3482_CR36",
+            "doi-asserted-by": "publisher",
+            "first-page": "218",
+            "DOI": "10.1038/s42256-021-00302-5",
+            "volume": "3",
+            "author": "L Lu",
+            "year": "2019",
+            "unstructured": "Lu, L., Jin, P., Pang, G., Zhang, Z., Karniadakis, G.E.: Learning nonlinear operators via DeepONet based on the universal approximation theorem of operators. Nat. Mach. Intell. 3(3), 218\u2013229 (2019)",
+            "journal-title": "Nat. Mach. Intell."
+          },
+          {
+            "key": "3482_CR37",
+            "unstructured": "Li, Z., Kovachki, N., Azizzadenesheli, K., Liu, B., Bhattacharya, K., Stuart, A., Anandkumar, A.: Fourier Neural Operator for Parametric Partial Differential Equations (2021)"
+          },
+          {
+            "issue": "1",
+            "key": "3482_CR38",
+            "doi-asserted-by": "publisher",
+            "first-page": "55",
+            "DOI": "10.3934/fods.2020004",
+            "volume": "2",
+            "author": "M Bocquet",
+            "year": "2020",
+            "unstructured": "Bocquet, M., Brajard, J., Carrassi, A., Bertino, L.: Bayesian inference of chaotic dynamics by merging data assimilation, machine learning and expectation-maximization. Found. Data Sci. 2(1), 55 (2020)",
+            "journal-title": "Found. Data Sci."
+          },
+          {
+            "issue": "12",
+            "key": "3482_CR39",
+            "doi-asserted-by": "publisher",
+            "first-page": "2020",
+            "DOI": "10.1029/2020MS002232",
+            "volume": "12",
+            "author": "M Bonavita",
+            "year": "2020",
+            "unstructured": "Bonavita, M., Laloyaux, P.: Machine learning for model error inference and correction. J. Adv. Model. Earth Syst. 12(12), 2020\u2013002232 (2020)",
+            "journal-title": "J. Adv. Model. Earth Syst."
+          },
+          {
+            "issue": "739",
+            "key": "3482_CR40",
+            "doi-asserted-by": "publisher",
+            "first-page": "3067",
+            "DOI": "10.1002/qj.4116",
+            "volume": "147",
+            "author": "A Farchi",
+            "year": "2021",
+            "unstructured": "Farchi, A., Laloyaux, P., Bonavita, M., Bocquet, M.: Using machine learning to correct model error in data assimilation and forecast applications. Q. J. R. Meteorol. Soc. 147(739), 3067\u20133084 (2021)",
+            "journal-title": "Q. J. R. Meteorol. Soc."
+          },
+          {
+            "issue": "3",
+            "key": "3482_CR41",
+            "doi-asserted-by": "publisher",
+            "first-page": "577",
+            "DOI": "10.1007/s00466-023-02279-x",
+            "volume": "72",
+            "author": "B Moya",
+            "year": "2021",
+            "unstructured": "Moya, B., Bad\u00edas, A., Gonz\u00e1lez, D., Chinesta, F., Cueto, E.: A thermodynamics-informed active learning approach to perception and reasoning about fluids. Comput. Mech. 72(3), 577\u2013591 (2021)",
+            "journal-title": "Comput. Mech."
+          },
+          {
+            "issue": "13",
+            "key": "3482_CR42",
+            "doi-asserted-by": "publisher",
+            "first-page": "3034",
+            "DOI": "10.1002/nme.6535",
+            "volume": "123",
+            "author": "B Moya",
+            "year": "2021",
+            "unstructured": "Moya, B., Bad\u00edas, A., Alfaro, I., Chinesta, F., Cueto, E.: Digital twins that learn and correct themselves. Int. J. Numer. Meth. Eng. 123(13), 3034\u20133044 (2021)",
+            "journal-title": "Int. J. Numer. Meth. Eng."
+          },
+          {
+            "key": "3482_CR43",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.jcp.2024.113157",
+            "volume": "513",
+            "author": "J-L Wu",
+            "year": "2024",
+            "unstructured": "Wu, J.-L., Levine, M.E., Schneider, T., Stuart, A.: Learning about structural errors in models of complex dynamical systems. J. Comput. Phys. 513, 113157 (2024)",
+            "journal-title": "J. Comput. Phys."
+          },
+          {
+            "issue": "1",
+            "key": "3482_CR44",
+            "doi-asserted-by": "publisher",
+            "first-page": "440",
+            "DOI": "10.1137/22M148375X",
+            "volume": "23",
+            "author": "MR Ebers",
+            "year": "2024",
+            "unstructured": "Ebers, M.R., Steele, K.M., Kutz, J.N.: Discrepancy modeling framework: learning missing physics, modeling systematic residuals, and disambiguating between deterministic and random effects. SIAM J. Appl. Dyn. Syst. 23(1), 440\u2013469 (2024)",
+            "journal-title": "SIAM J. Appl. Dyn. Syst."
+          },
+          {
+            "key": "3482_CR45",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.physd.2024.134152",
+            "volume": "463",
+            "author": "S Wu",
+            "year": "2024",
+            "unstructured": "Wu, S., Chamoin, L., Li, Q.: Non-intrusive model combination for learning dynamical systems. Phys. D 463, 134152 (2024)",
+            "journal-title": "Phys. D"
+          },
+          {
+            "issue": "12",
+            "key": "3482_CR46",
+            "doi-asserted-by": "publisher",
+            "first-page": "1801",
+            "DOI": "10.1002/nme.5583",
+            "volume": "112",
+            "author": "S Trehan",
+            "year": "2017",
+            "unstructured": "Trehan, S., Carlberg, K., Durlofsky, L.J.: Error modeling for surrogates of dynamical systems using machine learning. Int. J. Numer. Meth. Eng. 112(12), 1801\u20131827 (2017)",
+            "journal-title": "Int. J. Numer. Meth. Eng."
+          },
+          {
+            "key": "3482_CR47",
+            "doi-asserted-by": "publisher",
+            "first-page": "250",
+            "DOI": "10.1016/j.cma.2019.01.024",
+            "volume": "348",
+            "author": "BA Freno",
+            "year": "2019",
+            "unstructured": "Freno, B.A., Carlberg, K.T.: Machine-learning error models for approximate solutions to parameterized systems of nonlinear equations. Comput. Methods Appl. Mech. Eng. 348, 250\u2013296 (2019)",
+            "journal-title": "Comput. Methods Appl. Mech. Eng."
+          },
+          {
+            "issue": "3",
+            "key": "3482_CR48",
+            "doi-asserted-by": "publisher",
+            "first-page": "423",
+            "DOI": "10.1016/S0377-2217(98)00186-6",
+            "volume": "111",
+            "author": "SH Owen",
+            "year": "1998",
+            "unstructured": "Owen, S.H., Daskin, M.S.: Strategic facility location: a review. Eur. J. Oper. Res. 111(3), 423\u2013447 (1998)",
+            "journal-title": "Eur. J. Oper. Res."
+          },
+          {
+            "issue": "23\u201324",
+            "key": "3482_CR49",
+            "doi-asserted-by": "publisher",
+            "first-page": "937",
+            "DOI": "10.1016/j.crma.2013.10.034",
+            "volume": "351",
+            "author": "M Yano",
+            "year": "2013",
+            "unstructured": "Yano, M., Penn, J.D., Patera, A.T.: A model-data weak formulation for simultaneous estimation of state and model bias. C.R. Math. 351(23\u201324), 937\u2013941 (2013)",
+            "journal-title": "C.R. Math."
+          },
+          {
+            "key": "3482_CR50",
+            "doi-asserted-by": "publisher",
+            "first-page": "229",
+            "DOI": "10.1007/s11831-008-9019-9",
+            "volume": "15",
+            "author": "G Rozza",
+            "year": "2007",
+            "unstructured": "Rozza, G., Huynh, D.B.P., Patera, A.T.: Reduced basis approximation and a posteriori error estimation for affinely parametrized elliptic coercive partial differential equations. Archiv. Comput. Methods Eng. 15, 229\u2013275 (2007)",
+            "journal-title": "Archiv. Comput. Methods Eng."
+          },
+          {
+            "issue": "9",
+            "key": "3482_CR51",
+            "doi-asserted-by": "publisher",
+            "first-page": "667",
+            "DOI": "10.1016/j.crma.2004.08.006",
+            "volume": "339",
+            "author": "M Barrault",
+            "year": "2004",
+            "unstructured": "Barrault, M., Maday, Y., Nguyen, N.C., Patera, A.T.: An empirical interpolation method: application to efficient reduced-basis discretization of partial differential equations. C.R. Math. 339(9), 667\u2013672 (2004)",
+            "journal-title": "C.R. Math."
+          },
+          {
+            "issue": "1",
+            "key": "3482_CR52",
+            "doi-asserted-by": "publisher",
+            "first-page": "217",
+            "DOI": "10.1142/S0219530522400140",
+            "volume": "21",
+            "author": "A Cohen",
+            "year": "2022",
+            "unstructured": "Cohen, A., Dolbeault, M., Mula, O., Somacal, A.: Nonlinear approximation spaces for inverse problems. Anal. Appl. 21(1), 217\u2013253 (2022)",
+            "journal-title": "Anal. Appl."
+          },
+          {
+            "key": "3482_CR53",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Venturi, S., Casey, T.A.: SVD Perspectives for Augmenting DeepONet Flexibility and Interpretability, (2022)",
+            "DOI": "10.1016/j.cma.2022.115718"
+          },
+          {
+            "key": "3482_CR54",
+            "unstructured": "Jnini, A., Goordoyal, H., Dave, S., Korobenko, A., Vella, F., Fraser, K.: Physics-constrained DeepONet for surrogate CFD models: a curved backward-facing step case. In: ICLR 2024 Workshop on AI4DifferentialEquations In Science (2024)"
+          },
+          {
+            "key": "3482_CR55",
+            "doi-asserted-by": "publisher",
+            "first-page": "1",
+            "DOI": "10.1017/S0962492904000212",
+            "volume": "14",
+            "author": "M Benzi",
+            "year": "2005",
+            "unstructured": "Benzi, M., Golub, G.H., Liesen, J.: Numerical solution of saddle point problems. Acta Numer 14, 1\u2013137 (2005). https://doi.org/10.1017/S0962492904000212",
+            "journal-title": "Acta Numer"
+          },
+          {
+            "issue": "2",
+            "key": "3482_CR56",
+            "doi-asserted-by": "publisher",
+            "first-page": "251",
+            "DOI": "10.1016/0893-6080(91)90009-T",
+            "volume": "4",
+            "author": "K Hornik",
+            "year": "1991",
+            "unstructured": "Hornik, K.: Approximation capabilities of multilayer feedforward networks. Neural Netw. 4(2), 251\u2013257 (1991)",
+            "journal-title": "Neural Netw."
+          }
+        ],
+        "container-title": [
+          "Journal of Scientific Computing"
+        ],
+        "original-title": [],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s10915-026-03482-7.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/article/10.1007/s10915-026-03482-7",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s10915-026-03482-7.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              12
+            ]
+          ],
+          "date-time": "2026-10-12T17:26:37Z",
+          "timestamp": 1791825997000
+        },
+        "score": 1,
+        "resource": {
+          "primary": {
+            "URL": "https://link.springer.com/10.1007/s10915-026-03482-7"
+          }
+        },
+        "subtitle": [],
+        "short-title": [],
+        "issued": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              12
+            ]
+          ]
+        },
+        "references-count": 56,
+        "journal-issue": {
+          "issue": "3",
+          "published-print": {
+            "date-parts": [
+              [
+                2026,
+                12
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "3482"
+        ],
+        "URL": "https://doi.org/10.1007/s10915-026-03482-7",
+        "relation": {},
+        "ISSN": [
+          "0885-7474",
+          "1573-7691"
+        ],
+        "issn-type": [
+          {
+            "value": "0885-7474",
+            "type": "print"
+          },
+          {
+            "value": "1573-7691",
+            "type": "electronic"
+          }
+        ],
+        "subject": [],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              12
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "26 November 2025",
+            "order": 1,
+            "name": "received",
+            "label": "Received",
+            "group": {
+              "name": "ArticleHistory",
+              "label": "Article History"
+            }
+          },
+          {
+            "value": "3 August 2026",
+            "order": 2,
+            "name": "revised",
+            "label": "Revised",
+            "group": {
+              "name": "ArticleHistory",
+              "label": "Article History"
+            }
+          },
+          {
+            "value": "13 September 2026",
+            "order": 3,
+            "name": "accepted",
+            "label": "Accepted",
+            "group": {
+              "name": "ArticleHistory",
+              "label": "Article History"
+            }
+          },
+          {
+            "value": "12 October 2026",
+            "order": 4,
+            "name": "first_online",
+            "label": "First Online",
+            "group": {
+              "name": "ArticleHistory",
+              "label": "Article History"
+            }
+          },
+          {
+            "value": "The authors declare that they have no conflict of interest.",
+            "order": 1,
+            "name": "Ethics",
+            "label": "Conflict of interest",
+            "group": {
+              "name": "EthicsHeading",
+              "label": "Declarations"
+            }
+          },
+          {
+            "value": "Not applicable.",
+            "order": 2,
+            "name": "Ethics",
+            "label": "Ethics Approval and Consent to Participate",
+            "group": {
+              "name": "EthicsHeading",
+              "label": "Declarations"
+            }
+          }
+        ],
+        "article-number": "84"
+      }
+    },
+    {
+      "doi": "10.1007/s11665-026-15126-w",
+      "topics": [
+        "dynamic-line-rating"
+      ],
+      "title": "The Development of Dynamic Constitutive Models for Inconel 690 Based on Isothermal True Stress-Strain Curves",
+      "journal": "Journal of Materials Engineering and Performance",
+      "publisher": "Springer Science and Business Media LLC",
+      "authors": [
+        {
+          "given": "Yequan",
+          "family": "Chen",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Shizhan",
+          "family": "Huang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jiaming",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Zekai",
+          "family": "Huang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ping",
+          "family": "Su",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Chunhua",
+          "family": "Ni",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Zhenyu",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Hongfei",
+          "family": "Yao",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xuming",
+          "family": "Zha",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Tao",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "publication_date": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ],
+      "url": "https://doi.org/10.1007/s11665-026-15126-w",
+      "verification": "Crossref DOI and journal-article metadata only",
+      "peer_review": "unconfirmed",
+      "relevance": "requires expert screening",
+      "source_metadata": {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              12
+            ]
+          ],
+          "date-time": "2026-10-12T17:53:20Z",
+          "timestamp": 1791827600705,
+          "version": "4.3.4"
+        },
+        "reference-count": 36,
+        "publisher": "Springer Science and Business Media LLC",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  10,
+                  12
+                ]
+              ],
+              "date-time": "2026-10-12T00:00:00Z",
+              "timestamp": 1791763200000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  10,
+                  12
+                ]
+              ],
+              "date-time": "2026-10-12T00:00:00Z",
+              "timestamp": 1791763200000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "link.springer.com"
+          ],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "J. of Materi Eng and Perform"
+        ],
+        "DOI": "10.1007/s11665-026-15126-w",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              12
+            ]
+          ],
+          "date-time": "2026-10-12T17:39:49Z",
+          "timestamp": 1791826789000
+        },
+        "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "The Development of Dynamic Constitutive Models for Inconel 690 Based on Isothermal True Stress-Strain Curves"
+        ],
+        "prefix": "10.1007",
+        "author": [
+          {
+            "given": "Yequan",
+            "family": "Chen",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Shizhan",
+            "family": "Huang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jiaming",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Zekai",
+            "family": "Huang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Ping",
+            "family": "Su",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Chunhua",
+            "family": "Ni",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Zhenyu",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Hongfei",
+            "family": "Yao",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Xuming",
+            "family": "Zha",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Tao",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "297",
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              12
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "issue": "2",
+            "key": "15126_CR1",
+            "doi-asserted-by": "publisher",
+            "first-page": "180",
+            "DOI": "10.1016/j.optlaseng.2012.08.006",
+            "volume": "51",
+            "author": "T Baldridge",
+            "year": "2013",
+            "unstructured": "T. Baldridge, G. Poling, E. Foroozmehr, R. Kovacevic, T. Metz, V. Kadekar, and M.C. Gupta, Laser Cladding of Inconel 690 on Inconel 600 Superalloy for Corrosion Protection in Nuclear Applications, Opt. Lasers Eng., 2013, 51(2), p 180\u2013184. https://doi.org/10.1016/j.optlaseng.2012.08.006",
+            "journal-title": "Opt. Lasers Eng."
+          },
+          {
+            "key": "15126_CR2",
+            "doi-asserted-by": "publisher",
+            "first-page": "106950",
+            "DOI": "10.1016/j.ultsonch.2024.106950",
+            "volume": "108",
+            "author": "Y Xia",
+            "year": "2024",
+            "unstructured": "Y. Xia, B. Dong, X. Cai, and S. Lin, Ultrasonic Vibration Assisted Gas Tungsten Arc Welding of Inconel 690 Alloy: Ultrasonic Effect to Refine Grains and Improve Mechanical Properties, Ultrason. Sonochem., 2024, 108, p 106950. https://doi.org/10.1016/j.ultsonch.2024.106950",
+            "journal-title": "Ultrason. Sonochem."
+          },
+          {
+            "issue": "16",
+            "key": "15126_CR3",
+            "doi-asserted-by": "publisher",
+            "first-page": "17503",
+            "DOI": "10.1007/s11665-024-10539-x",
+            "volume": "34",
+            "author": "B Sen",
+            "year": "2025",
+            "unstructured": "B. Sen, R. Kumar, B. Kanabar, A. Kedia, A.V. Kumar, and A. Bhowmik, Comparative Analysis of NSGA-II and TLBO for Optimizing Machining Parameters of Inconel 690: A Sustainable Manufacturing Paradigm, J. Mater. Eng. Perform., 2025, 34(16), p 17503\u201317518. https://doi.org/10.1007/s11665-024-10539-x",
+            "journal-title": "J. Mater. Eng. Perform."
+          },
+          {
+            "issue": "5\u20136",
+            "key": "15126_CR4",
+            "doi-asserted-by": "publisher",
+            "first-page": "3025",
+            "DOI": "10.1007/s00170-022-09456-x",
+            "volume": "121",
+            "author": "Z Chen",
+            "year": "2022",
+            "unstructured": "Z. Chen, C. Huang, B. Li, G. Jiang, Z. Tang, J. Niu, and H. Liu, Experimental Study on Surface Integrity of Inconel 690 Milled by Coated Carbide Inserts, Int. J. Adv. Manuf. Technol., 2022, 121(5\u20136), p 3025\u20133042. https://doi.org/10.1007/s00170-022-09456-x",
+            "journal-title": "Int. J. Adv. Manuf. Technol."
+          },
+          {
+            "issue": "1",
+            "key": "15126_CR5",
+            "doi-asserted-by": "publisher",
+            "first-page": "20220288",
+            "DOI": "10.1515/rams-2022-0288",
+            "volume": "62",
+            "author": "A Raj",
+            "year": "2023",
+            "unstructured": "A. Raj, J.P. Misra, R.P. Singh, G. Singh, S. Sharma, and S.M. Eldin, Performance Analysis of WEDM during the Machining of Inconel 690 Miniature Gear Using RSM and ANN Modeling Approaches, Rev. Adv. Mater. Sci., 2023, 62(1), p 20220288. https://doi.org/10.1515/rams-2022-0288",
+            "journal-title": "Rev. Adv. Mater. Sci."
+          },
+          {
+            "issue": "3",
+            "key": "15126_CR6",
+            "doi-asserted-by": "publisher",
+            "first-page": "585",
+            "DOI": "10.3390/met13030585",
+            "volume": "13",
+            "author": "AFV Pedroso",
+            "year": "2023",
+            "unstructured": "A.F.V. Pedroso, V.F.C. Sousa, N.P.V. Sebbe, F.J.G. Silva, R.D.S.G. Campilho, R.C.M. Sales-Contini, and A.M.P. Jesus, A Comprehensive Review on the Conventional and Non-Conventional Machining and Tool-Wear Mechanisms of INCONEL\u00ae, Metals, 2023, 13(3), p 585. https://doi.org/10.3390/met13030585",
+            "journal-title": "Metals"
+          },
+          {
+            "issue": "12",
+            "key": "15126_CR7",
+            "doi-asserted-by": "publisher",
+            "first-page": "2238",
+            "DOI": "10.1016/j.jmatprotec.2013.06.015",
+            "volume": "213",
+            "author": "R Liu",
+            "year": "2013",
+            "unstructured": "R. Liu, S. Melkote, R. Pucha, J. Morehouse, X. Man, and T. Marusich, An Enhanced Constitutive Material Model for Machining of Ti-6Al-4V Alloy, J. Mater. Process. Technol., 2013, 213(12), p 2238\u20132246. https://doi.org/10.1016/j.jmatprotec.2013.06.015",
+            "journal-title": "J. Mater. Process. Technol."
+          },
+          {
+            "issue": "5\u20136",
+            "key": "15126_CR8",
+            "doi-asserted-by": "publisher",
+            "first-page": "2707",
+            "DOI": "10.1007/s00170-023-11573-0",
+            "volume": "127",
+            "author": "G De Paiva Silva",
+            "year": "2023",
+            "unstructured": "G. De Paiva Silva, D. De Oliveira, and L. Malcher, Numerical Study of the Minimum Uncut Chip Thickness in Micro-Machining of Inconel 718 Based on Johnson\u2013Cook Isothermal Model, Int. J. Adv. Manuf. Technol., 2023, 127(5\u20136), p 2707\u20132721. https://doi.org/10.1007/s00170-023-11573-0",
+            "journal-title": "Int. J. Adv. Manuf. Technol."
+          },
+          {
+            "issue": "2",
+            "key": "15126_CR9",
+            "doi-asserted-by": "publisher",
+            "first-page": "82",
+            "DOI": "10.3390/lubricants11020082",
+            "volume": "11",
+            "author": "L Gong",
+            "year": "2023",
+            "unstructured": "L. Gong, Y. Su, Y. Liu, W. Zhao, A.M. Khan, and M. Jamil, Investigation on Machinability Characteristics of Inconel 718 Alloy in Cryogenic Machining Processes, Lubricants, 2023, 11(2), p 82. https://doi.org/10.3390/lubricants11020082",
+            "journal-title": "Lubricants"
+          },
+          {
+            "key": "15126_CR10",
+            "doi-asserted-by": "publisher",
+            "first-page": "3901",
+            "DOI": "10.1016/j.jmrt.2024.07.102",
+            "volume": "31",
+            "author": "C Du",
+            "year": "2024",
+            "unstructured": "C. Du, F. Jiang, B. Guo, and Y. Zhang, Dynamic Constitutive Model of Fe-Cr-Ni Stainless Steel Based on Isothermal True Stress-Strain Curves, J. Mater. Res. Technol., 2024, 31, p 3901\u20133913. https://doi.org/10.1016/j.jmrt.2024.07.102",
+            "journal-title": "J. Mater. Res. Technol."
+          },
+          {
+            "issue": "45",
+            "key": "15126_CR11",
+            "doi-asserted-by": "publisher",
+            "first-page": "23014",
+            "DOI": "10.1007/s10853-025-11737-1",
+            "volume": "60",
+            "author": "R Zhu",
+            "year": "2025",
+            "unstructured": "R. Zhu, D. Han, X. Zhou, Y. Wu, W. Lu, and G. Gao, Strain Rate Sensitivity and Dynamic Failure Mechanisms of Penetration-Resistant Ultra-High-Strength Armor Steel, J. Mater. Sci., 2025, 60(45), p 23014\u201323045. https://doi.org/10.1007/s10853-025-11737-1",
+            "journal-title": "J. Mater. Sci."
+          },
+          {
+            "key": "15126_CR12",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1177/09544054251328702",
+            "author": "Y Zhao",
+            "year": "2025",
+            "unstructured": "Y. Zhao, Q. Xiong, P. Yan, Z. Dai, Y. Song, S. Gao, X. Wang, X. Xia, B. Zhai, and S. Li, Research on Dynamic Constitutive Model and Broaching Simulation of Titanium Alloy at Low-Speed Cutting, Proc. Inst. Mech. Eng. B J. Eng. Manuf., 2025 https://doi.org/10.1177/09544054251328702",
+            "journal-title": "Proc. Inst. Mech. Eng. B J. Eng. Manuf."
+          },
+          {
+            "key": "15126_CR13",
+            "doi-asserted-by": "publisher",
+            "first-page": "3231",
+            "DOI": "10.1016/j.jmrt.2023.10.140",
+            "volume": "27",
+            "author": "L Yan",
+            "year": "2023",
+            "unstructured": "L. Yan, A. Jiang, Z. Wang, F. Jiang, F. Wang, X. Wu, and Y. Zhang, Size Effect during Dynamic Shear Tests with Hat-Shaped Specimens, J. Mater. Res. Technol., 2023, 27, p 3231\u20133242. https://doi.org/10.1016/j.jmrt.2023.10.140",
+            "journal-title": "J. Mater. Res. Technol."
+          },
+          {
+            "key": "15126_CR14",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s00170-026-17967-0",
+            "author": "T Zhang",
+            "year": "2026",
+            "unstructured": "T. Zhang, Z. Xin, H. Dong, Y. Chen, L. Yi, Z. Lin, Q. Li, H. Yao, F. Jiang, and Z. Jiang, Research on the Surface Integrity for the Lapping of Copper Based on the Numerical Simulation of Single Grit Scratching, Int. J. Adv. Manuf. Technol., 2026 https://doi.org/10.1007/s00170-026-17967-0",
+            "journal-title": "Int. J. Adv. Manuf. Technol."
+          },
+          {
+            "issue": "12",
+            "key": "15126_CR15",
+            "doi-asserted-by": "publisher",
+            "first-page": "5243",
+            "DOI": "10.1007/s11661-021-06463-7",
+            "volume": "52",
+            "author": "MA Moretti",
+            "year": "2021",
+            "unstructured": "M.A. Moretti, B. Dalai, P. \u00c5kerstr\u00f6m, C. Arvieu, D. Jacquin, E. Lacoste, and L.-E. Lindgren, High Strain Rate Deformation Behavior and Recrystallization of Alloy 718, Metall. Mater. Trans. A, 2021, 52(12), p 5243\u20135257. https://doi.org/10.1007/s11661-021-06463-7",
+            "journal-title": "Metall. Mater. Trans. A"
+          },
+          {
+            "key": "15126_CR16",
+            "doi-asserted-by": "publisher",
+            "first-page": "169150",
+            "DOI": "10.1016/j.jallcom.2023.169150",
+            "volume": "943",
+            "author": "Y Fan",
+            "year": "2023",
+            "unstructured": "Y. Fan, H. Fan, and Z. Hao, Effect of Pulsed Current on Plastic Deformation of Inconel 718 under High Strain Rate and High Temperature Conditions, J. Alloys Compd., 2023, 943, p 169150. https://doi.org/10.1016/j.jallcom.2023.169150",
+            "journal-title": "J. Alloys Compd."
+          },
+          {
+            "key": "15126_CR17",
+            "doi-asserted-by": "publisher",
+            "first-page": "139",
+            "DOI": "10.1016/j.ijplas.2015.08.010",
+            "volume": "80",
+            "author": "J Blaizot",
+            "year": "2016",
+            "unstructured": "J. Blaizot, T. Chaise, D. N\u00e9lias, M. Perez, S. Cazottes, and P. Chaudet, Constitutive Model for Nickel Alloy 690 (Inconel 690) at Various Strain Rates and Temperatures, Int. J. Plast., 2016, 80, p 139\u2013153. https://doi.org/10.1016/j.ijplas.2015.08.010",
+            "journal-title": "Int. J. Plast."
+          },
+          {
+            "key": "15126_CR18",
+            "doi-asserted-by": "publisher",
+            "first-page": "156507",
+            "DOI": "10.1016/j.jallcom.2020.156507",
+            "volume": "847",
+            "author": "Y Li",
+            "year": "2020",
+            "unstructured": "Y. Li, Y. Zhang, Z. Chen, Z. Ji, H. Zhu, C. Sun, W. Dong, X. Li, Y. Sun, and S. Yao, Hot Deformation Behavior and Dynamic Recrystallization of GH690 Nickel-Based Superalloy, J. Alloys Compd., 2020, 847, p 156507. https://doi.org/10.1016/j.jallcom.2020.156507",
+            "journal-title": "J. Alloys Compd."
+          },
+          {
+            "issue": "5",
+            "key": "15126_CR19",
+            "doi-asserted-by": "publisher",
+            "first-page": "052006",
+            "DOI": "10.1088/1757-899X/1043/5/052006",
+            "volume": "1043",
+            "author": "S Chenyang",
+            "year": "2021",
+            "unstructured": "S. Chenyang, M. Jingxian, D. Ailing, L. Qiang, Z. Xiaowei, and Z. Lechang, Research on Inconel 690 Material Test Data Analysis Method, IOP Conf. Ser. Mater. Sci. Eng., 2021, 1043(5), p 052006. https://doi.org/10.1088/1757-899X/1043/5/052006",
+            "journal-title": "IOP Conf. Ser. Mater. Sci. Eng."
+          },
+          {
+            "key": "15126_CR20",
+            "doi-asserted-by": "publisher",
+            "first-page": "4733",
+            "DOI": "10.1016/j.jmrt.2022.06.164",
+            "volume": "19",
+            "author": "L Yan",
+            "year": "2022",
+            "unstructured": "L. Yan, A. Jiang, Y. Li, T. Qiu, F. Jiang, H. Xie, F. Wang, X. Wu, and Y. Zhang, Dynamic Constitutive Models of Ti-6Al-4V Based on Isothermal Ture Stress\u2013Strain Curves, J. Mater. Res. Technol., 2022, 19, p 4733\u20134744. https://doi.org/10.1016/j.jmrt.2022.06.164",
+            "journal-title": "J. Mater. Res. Technol."
+          },
+          {
+            "issue": "3",
+            "key": "15126_CR21",
+            "doi-asserted-by": "publisher",
+            "first-page": "155",
+            "DOI": "10.1016/0022-5096(63)90050-4",
+            "volume": "11",
+            "author": "EDH Davies",
+            "year": "1963",
+            "unstructured": "E.D.H. Davies and S.C. Hunter, The Dynamic Compression Testing of Solids by the Method of the Split Hopkinson Pressure Bar, J. Mech. Phys. Solids, 1963, 11(3), p 155\u2013179. https://doi.org/10.1016/0022-5096(63)90050-4",
+            "journal-title": "J. Mech. Phys. Solids"
+          },
+          {
+            "issue": "8",
+            "key": "15126_CR22",
+            "doi-asserted-by": "publisher",
+            "first-page": "9839",
+            "DOI": "10.1016/j.ceramint.2018.02.227",
+            "volume": "44",
+            "author": "F Jiang",
+            "year": "2018",
+            "unstructured": "F. Jiang, X. Luan, N. Wang, X. Xu, X. Lu, and Q. Wen, Research on the Dynamic Mechanical Properties of C-Plane Sapphire under Impact Loading, Ceram. Int., 2018, 44(8), p 9839\u20139847. https://doi.org/10.1016/j.ceramint.2018.02.227",
+            "journal-title": "Ceram. Int."
+          },
+          {
+            "issue": "9",
+            "key": "15126_CR23",
+            "doi-asserted-by": "publisher",
+            "first-page": "3984",
+            "DOI": "10.1007/s10853-024-09385-y",
+            "volume": "59",
+            "author": "P Wang",
+            "year": "2024",
+            "unstructured": "P. Wang, P. Mao, L. Zhou, Z. Wang, F. Wang, Z. Wei, X. Liu, and Z. Liu, Effect of \u03b1 Phase Morphologies on Shear Localization Behavior of TC4 Titanium Alloy at High Strain Rate, J. Mater. Sci., 2024, 59(9), p 3984\u20133999. https://doi.org/10.1007/s10853-024-09385-y",
+            "journal-title": "J. Mater. Sci."
+          },
+          {
+            "key": "15126_CR24",
+            "doi-asserted-by": "publisher",
+            "first-page": "2705",
+            "DOI": "10.1016/j.jmrt.2022.08.032",
+            "volume": "20",
+            "author": "T Zhang",
+            "year": "2022",
+            "unstructured": "T. Zhang, L. Yan, L. Li, M. Huo, H. Wu, X. Zha, N. Wang, X. Wu, F. Jiang, Z. Jiang, and X. Xu, Grain Size Dependence of Modified Material Constitutive Model for OFHC Copper, J. Mater. Res. Technol., 2022, 20, p 2705\u20132718. https://doi.org/10.1016/j.jmrt.2022.08.032",
+            "journal-title": "J. Mater. Res. Technol."
+          },
+          {
+            "issue": "1\u20132",
+            "key": "15126_CR25",
+            "doi-asserted-by": "publisher",
+            "first-page": "263",
+            "DOI": "10.1007/s00170-025-15170-1",
+            "volume": "137",
+            "author": "J Li",
+            "year": "2025",
+            "unstructured": "J. Li, F. Jiang, N. Wang, S. Huang, T. Zhang, A. Jin, X. Yao, H. Yao, D. Zhu, X. Zha, B. Guo, and Z. Jiang, A Synchronous Wear Design for Inner and Outer Inserts of Indexable Drill Based on Numerical Simulation, Int. J. Adv. Manuf. Technol., 2025, 137(1\u20132), p 263\u2013277. https://doi.org/10.1007/s00170-025-15170-1",
+            "journal-title": "Int. J. Adv. Manuf. Technol."
+          },
+          {
+            "key": "15126_CR26",
+            "doi-asserted-by": "publisher",
+            "first-page": "4986",
+            "DOI": "10.1016/j.jmrt.2023.10.282",
+            "volume": "27",
+            "author": "J Li",
+            "year": "2023",
+            "unstructured": "J. Li, F. Jiang, A. Jin, T. Zhang, X. Wang, S. Huang, X. Zeng, H. Yao, D. Zhu, X. Wu, L. Yan, X. Zha, and B. Guo, FE Modeling and Simulation of the Turning Process Considering the Cutting Induced Hardening of Workpiece Materials, J. Mater. Res. Technol., 2023, 27, p 4986\u20134996. https://doi.org/10.1016/j.jmrt.2023.10.282",
+            "journal-title": "J. Mater. Res. Technol."
+          },
+          {
+            "issue": "2",
+            "key": "15126_CR27",
+            "doi-asserted-by": "publisher",
+            "first-page": "025002",
+            "DOI": "10.1088/2053-1591/acb640",
+            "volume": "10",
+            "author": "F Yu",
+            "year": "2023",
+            "unstructured": "F. Yu and J. Li, Molecular Dynamics Study on the Effects of Nanorolling Processes on the Properties of Nickel-Based Superalloy GH4169, Mater. Res. Express, 2023, 10(2), p 025002. https://doi.org/10.1088/2053-1591/acb640",
+            "journal-title": "Mater. Res. Express"
+          },
+          {
+            "key": "15126_CR28",
+            "doi-asserted-by": "publisher",
+            "first-page": "91",
+            "DOI": "10.1016/j.msea.2018.06.087",
+            "volume": "732",
+            "author": "X Wu",
+            "year": "2018",
+            "unstructured": "X. Wu, L. Li, W. Liu, S. Li, L. Zhang, and H. He, Development of Adiabatic Shearing Bands in 7003\u2013T4 Aluminum Alloy under High Strain Rate Impacting, Mater. Sci. Eng. A, 2018, 732, p 91\u201398. https://doi.org/10.1016/j.msea.2018.06.087",
+            "journal-title": "Mater. Sci. Eng. A"
+          },
+          {
+            "key": "15126_CR29",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s11665-026-14258-3",
+            "author": "Q Fang",
+            "year": "2026",
+            "unstructured": "Q. Fang, J. Wang, J. Yun, S. Huang, F. Jiang, and T. Zhang, Development of a Dynamic Constitutive Model for Single-Crystal Copper Based on Isothermal Stress-Strain curves, J. Mater. Eng. Perform., 2026 https://doi.org/10.1007/s11665-026-14258-3",
+            "journal-title": "J. Mater. Eng. Perform."
+          },
+          {
+            "issue": "3",
+            "key": "15126_CR30",
+            "doi-asserted-by": "publisher",
+            "first-page": "280",
+            "DOI": "10.1080/02670836.2021.1885580",
+            "volume": "37",
+            "author": "CH Wang",
+            "year": "2021",
+            "unstructured": "C.H. Wang, C.Y. Sun, L.Y. Qian, W. Cai, J. Jiang, and Y. Xiao, Dynamic Mechanical Behaviour Induced by Adiabatic Temperature Rise of Fe-Mn-Al-C steel, Mater. Sci. Technol., 2021, 37(3), p 280\u2013291. https://doi.org/10.1080/02670836.2021.1885580",
+            "journal-title": "Mater. Sci. Technol."
+          },
+          {
+            "issue": "2",
+            "key": "15126_CR31",
+            "doi-asserted-by": "publisher",
+            "first-page": "748",
+            "DOI": "10.1007/s10853-019-03949-z",
+            "volume": "55",
+            "author": "X Wang",
+            "year": "2020",
+            "unstructured": "X. Wang, F. Jiang, T. Zhang, and L. Wang, Study on Dynamic Mechanical Properties and Constitutive Model of 10B/Al Composite Compared with Its Matrix of High-Purity Aluminum, J. Mater. Sci., 2020, 55(2), p 748\u2013761. https://doi.org/10.1007/s10853-019-03949-z",
+            "journal-title": "J. Mater. Sci."
+          },
+          {
+            "key": "15126_CR32",
+            "doi-asserted-by": "publisher",
+            "first-page": "102016",
+            "DOI": "10.1016/j.mtcomm.2021.102016",
+            "volume": "26",
+            "author": "S Zhu",
+            "year": "2021",
+            "unstructured": "S. Zhu, J. Liu, and X. Deng, Modification of Strain Rate Strengthening Coefficient for Johnson-Cook Constitutive Model of Ti6Al4V Alloy, Mater. Today Commun., 2021, 26, p 102016. https://doi.org/10.1016/j.mtcomm.2021.102016",
+            "journal-title": "Mater. Today Commun."
+          },
+          {
+            "key": "15126_CR33",
+            "doi-asserted-by": "publisher",
+            "first-page": "68",
+            "DOI": "10.1016/j.jmrt.2023.05.181",
+            "volume": "25",
+            "author": "S Huang",
+            "year": "2023",
+            "unstructured": "S. Huang, T. Zhang, Z. Wang, L. Cheng, X. Zha, B. Guo, D. Zheng, H. Xie, Z. Xiang, Y. Chen, and F. Jiang, Asymmetrical Cutting-Edge Design of Broaching Tool Based on FEM Simulation, J. Mater. Res. Technol., 2023, 25, p 68\u201382. https://doi.org/10.1016/j.jmrt.2023.05.181",
+            "journal-title": "J. Mater. Res. Technol."
+          },
+          {
+            "issue": "1",
+            "key": "15126_CR34",
+            "doi-asserted-by": "publisher",
+            "first-page": "34",
+            "DOI": "10.3390/ma11010034",
+            "volume": "11",
+            "author": "T Zhang",
+            "year": "2018",
+            "unstructured": "T. Zhang, F. Jiang, L. Yan, and X. Xu, FEM Modeling of the Relationship Between the High-Temperature Hardness and High-Temperature, Quasi-Static Compression Experiment, Materials, 2018, 11(1), p 34. https://doi.org/10.3390/ma11010034",
+            "journal-title": "Materials"
+          },
+          {
+            "issue": "2",
+            "key": "15126_CR35",
+            "doi-asserted-by": "publisher",
+            "first-page": "022001",
+            "DOI": "10.1088/2631-7990/abdfd7",
+            "volume": "3",
+            "author": "T Zhang",
+            "year": "2021",
+            "unstructured": "T. Zhang, F. Jiang, H. Huang, J. Lu, Y. Wu, Z. Jiang, and X. Xu, Towards Understanding the Brittle\u2013Ductile Transition in the Extreme Manufacturing, Int. J. Extrem. Manuf., 2021, 3(2), p 022001. https://doi.org/10.1088/2631-7990/abdfd7",
+            "journal-title": "Int. J. Extrem. Manuf."
+          },
+          {
+            "key": "15126_CR36",
+            "doi-asserted-by": "publisher",
+            "first-page": "2244",
+            "DOI": "10.1016/j.jmrt.2023.01.090",
+            "volume": "23",
+            "author": "Z Zou",
+            "year": "2023",
+            "unstructured": "Z. Zou, L. He, T. Zhou, W. Zhang, P. Tian, and X. Zhou, Research on Inverse Identification of Johnson-Cook Constitutive parameters for Turning 304 Stainless Steel Based on Coupling Simulation, J. Mater. Res. Technol., 2023, 23, p 2244\u20132262. https://doi.org/10.1016/j.jmrt.2023.01.090",
+            "journal-title": "J. Mater. Res. Technol."
+          }
+        ],
+        "container-title": [
+          "Journal of Materials Engineering and Performance"
+        ],
+        "original-title": [],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s11665-026-15126-w.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/article/10.1007/s11665-026-15126-w",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s11665-026-15126-w.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              12
+            ]
+          ],
+          "date-time": "2026-10-12T17:39:49Z",
+          "timestamp": 1791826789000
+        },
+        "score": 1,
+        "resource": {
+          "primary": {
+            "URL": "https://link.springer.com/10.1007/s11665-026-15126-w"
+          }
+        },
+        "subtitle": [],
+        "short-title": [],
+        "issued": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              12
+            ]
+          ]
+        },
+        "references-count": 36,
+        "alternative-id": [
+          "15126"
+        ],
+        "URL": "https://doi.org/10.1007/s11665-026-15126-w",
+        "relation": {},
+        "ISSN": [
+          "1059-9495",
+          "1544-1024"
+        ],
+        "issn-type": [
+          {
+            "value": "1059-9495",
+            "type": "print"
+          },
+          {
+            "value": "1544-1024",
+            "type": "electronic"
+          }
+        ],
+        "subject": [],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              12
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "19 May 2026",
+            "order": 1,
+            "name": "received",
+            "label": "Received",
+            "group": {
+              "name": "ArticleHistory",
+              "label": "Article History"
+            }
+          },
+          {
+            "value": "24 June 2026",
+            "order": 2,
+            "name": "revised",
+            "label": "Revised",
+            "group": {
+              "name": "ArticleHistory",
+              "label": "Article History"
+            }
+          },
+          {
+            "value": "2 July 2026",
+            "order": 3,
+            "name": "accepted",
+            "label": "Accepted",
+            "group": {
+              "name": "ArticleHistory",
+              "label": "Article History"
+            }
+          },
+          {
+            "value": "12 October 2026",
+            "order": 4,
+            "name": "first_online",
+            "label": "First Online",
+            "group": {
+              "name": "ArticleHistory",
+              "label": "Article History"
+            }
+          },
+          {
+            "value": "The authors declare that there are no known conflicts of interest associated with the publication of this research, and that the work has not received any significant financial support that could have influenced its conclusions.",
+            "order": 1,
+            "name": "Ethics",
+            "label": "Conflict of interest",
+            "group": {
+              "name": "EthicsHeading",
+              "label": "Ethics"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "doi": "10.1007/s11784-026-01348-x",
+      "topics": [
+        "optimal-power-flow"
+      ],
+      "title": "Bifurcation of periodic and antiperiodic solutions in non-autonomous potential-type delay systems",
+      "journal": "Journal of Fixed Point Theory and Applications",
+      "publisher": "Springer Science and Business Media LLC",
+      "authors": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-8726-7311",
+          "authenticated-orcid": false,
+          "given": "Guangcun",
+          "family": "Lu",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "publication_date": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ],
+      "url": "https://doi.org/10.1007/s11784-026-01348-x",
+      "verification": "Crossref DOI and journal-article metadata only",
+      "peer_review": "unconfirmed",
+      "relevance": "requires expert screening",
+      "source_metadata": {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              12
+            ]
+          ],
+          "date-time": "2026-10-12T05:44:45Z",
+          "timestamp": 1791783885991,
+          "version": "4.3.4"
+        },
+        "reference-count": 41,
+        "publisher": "Springer Science and Business Media LLC",
+        "issue": "4",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  10,
+                  12
+                ]
+              ],
+              "date-time": "2026-10-12T00:00:00Z",
+              "timestamp": 1791763200000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  10,
+                  12
+                ]
+              ],
+              "date-time": "2026-10-12T00:00:00Z",
+              "timestamp": 1791763200000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+          }
+        ],
+        "funder": [
+          {
+            "name": "National Natural Science Foundation of China",
+            "award": [
+              "12371108"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "12371108"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "https://ror.org/01h0zpd94",
+                "id-type": "ROR",
+                "asserted-by": "crossref"
+              }
+            ]
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "link.springer.com"
+          ],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "J. Fixed Point Theory Appl."
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              12
+            ]
+          ]
+        },
+        "DOI": "10.1007/s11784-026-01348-x",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              12
+            ]
+          ],
+          "date-time": "2026-10-12T04:46:14Z",
+          "timestamp": 1791780374000
+        },
+        "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Bifurcation of periodic and antiperiodic solutions in non-autonomous potential-type delay systems"
+        ],
+        "prefix": "10.1007",
+        "volume": "28",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-8726-7311",
+            "authenticated-orcid": false,
+            "given": "Guangcun",
+            "family": "Lu",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "297",
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              12
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "issue": "1",
+            "key": "1348_CR1",
+            "doi-asserted-by": "publisher",
+            "first-page": "23",
+            "DOI": "10.1016/0362-546X(90)90132-Z",
+            "volume": "14",
+            "author": "O Arino",
+            "year": "1990",
+            "unstructured": "Arino, O., Hbid, M.L.: Periodic solutions for retarded differential systems close to ordinary ones. Nonlinear Anal. Theory Methods Appl. 14(1), 23\u201334 (1990)",
+            "journal-title": "Nonlinear Anal. Theory Methods Appl."
+          },
+          {
+            "key": "1348_CR2",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Benevieri, P.: A typical bifurcation for a class of delay differential equations. Topological methods for delay and ordinary differential equations with applications to continuum mechanics, 167\u2013189. Adv. Mech. Math., 51 Adv. Contin. Mech. Birkh\u00e4user/Springer, Cham, (2024)",
+            "DOI": "10.1007/978-3-031-61337-1_8"
+          },
+          {
+            "issue": "2",
+            "key": "1348_CR3",
+            "doi-asserted-by": "publisher",
+            "first-page": "548",
+            "DOI": "10.1016/S0022-247X(03)00353-6",
+            "volume": "284",
+            "author": "P Bi",
+            "year": "2003",
+            "unstructured": "Bi, P., Han, M., Yuhai, W.: Bifurcation of periodic solutions of delay differential equation with two delays. J. Math. Anal. Appl. 284(2), 548\u2013563 (2003)",
+            "journal-title": "J. Math. Anal. Appl."
+          },
+          {
+            "key": "1348_CR4",
+            "doi-asserted-by": "publisher",
+            "first-page": "66",
+            "DOI": "10.1016/0022-0396(78)90041-4",
+            "volume": "29",
+            "author": "SN Chow",
+            "year": "1978",
+            "unstructured": "Chow, S.N., Mallet-Paret, J.: The Fuller index and global Hopf bifurcation. J. Differ. Equ. 29, 66\u201385 (1978)",
+            "journal-title": "J. Differ. Equ."
+          },
+          {
+            "key": "1348_CR5",
+            "first-page": "127",
+            "volume": "307",
+            "author": "SN Chow",
+            "year": "1988",
+            "unstructured": "Chow, S.N., Walther, H.O.: Characteristic multipliers and stability of symmetric periodic solutions of $$\\dot{x}= g(x(t-1))$$. Trans. Am. Math. Soc. 307, 127\u2013142 (1988)",
+            "journal-title": "Trans. Am. Math. Soc."
+          },
+          {
+            "key": "1348_CR6",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1007/978-1-4612-4206-2",
+            "volume-title": "Delay Equations: Functional, Complex, and Nonlinear Analysis, Applied Mathematical Sciences",
+            "author": "O Diekmann",
+            "year": "1995",
+            "unstructured": "Diekmann, O., Van Gils, S.A., Lunel, S.M., Walther, H.-O.: Delay Equations: Functional, Complex, and Nonlinear Analysis, Applied Mathematical Sciences, vol. 110. Springer-Verlag, New York (1995)"
+          },
+          {
+            "key": "1348_CR7",
+            "doi-asserted-by": "publisher",
+            "first-page": "1275",
+            "DOI": "10.1088/0951-7715/19/6/004",
+            "volume": "19",
+            "author": "Y Dong",
+            "year": "2006",
+            "unstructured": "Dong, Y.: $$P$$-index theory for linear Hamiltonian systems and multiple solutions for nonlinear Hamiltonian systems. Nonlinearity 19, 1275\u20131294 (2006)",
+            "journal-title": "Nonlinearity"
+          },
+          {
+            "key": "1348_CR8",
+            "doi-asserted-by": "publisher",
+            "first-page": "109",
+            "DOI": "10.1016/0022-0396(89)90170-8",
+            "volume": "82",
+            "author": "P Dormayer",
+            "year": "1989",
+            "unstructured": "Dormayer, P.: Smooth bifurcation of symmetric periodic solutions of functional-differential equation. J. Differ. Equ. 82, 109\u2013155 (1989)",
+            "journal-title": "J. Differ. Equ."
+          },
+          {
+            "key": "1348_CR9",
+            "doi-asserted-by": "publisher",
+            "first-page": "713",
+            "DOI": "10.2307/2372546",
+            "volume": "75",
+            "author": "S Doss",
+            "year": "1953",
+            "unstructured": "Doss, S., Nasr, S.K.: On the functional equation $$\\frac{dy}{dx}=f(x, y(x), y(x+h)),\\, h>0$$. Am. J. Math. 75, 713\u2013716 (1953)",
+            "journal-title": "Am. J. Math."
+          },
+          {
+            "issue": "1\u20132",
+            "key": "1348_CR10",
+            "doi-asserted-by": "publisher",
+            "first-page": "281",
+            "DOI": "10.1007/BF02935805",
+            "volume": "19",
+            "author": "MMA El-Sheikh",
+            "year": "2005",
+            "unstructured": "El-Sheikh, M.M.A., El-Mahrouf, S.A.A.: On stability and bifurcation of periodic solutions of delay differential equations. J. Appl. Math. Comput. 19(1\u20132), 281\u2013295 (2005)",
+            "journal-title": "J. Appl. Math. Comput."
+          },
+          {
+            "key": "1348_CR11",
+            "volume-title": "Applied Delay Differential Equations, Surveys and Tutorials in the Applied Mathematical Sciences",
+            "author": "T Erneux",
+            "year": "2009",
+            "unstructured": "Erneux, T.: Applied Delay Differential Equations, Surveys and Tutorials in the Applied Mathematical Sciences, vol. 3. Springer, New York (2009)"
+          },
+          {
+            "key": "1348_CR12",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Faria, T.: Normal forms and bifurcations for delay differential equations. Delay differential equations and applications, 227\u2013282. NATO Sci. Ser. II Math. Phys. Chem., 205 Springer, Dordrecht, (2006)",
+            "DOI": "10.1007/1-4020-3647-7_7"
+          },
+          {
+            "key": "1348_CR13",
+            "doi-asserted-by": "publisher",
+            "first-page": "25",
+            "DOI": "10.1016/j.na.2005.06.011",
+            "volume": "65",
+            "author": "G Fei",
+            "year": "2006",
+            "unstructured": "Fei, G.: Multiple periodic solutions of differential delay equations via Hamiltonian systems(I). Nonlinear Anal. 65, 25\u201339 (2006)",
+            "journal-title": "Nonlinear Anal."
+          },
+          {
+            "key": "1348_CR14",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.jde.2025.114072",
+            "volume": "460",
+            "author": "S Guo",
+            "year": "2026",
+            "unstructured": "Guo, S.: Bifurcation from periodic solutions in delay differential equations. J. Differ. Equ. 460, 114072 (2026)",
+            "journal-title": "J. Differ. Equ."
+          },
+          {
+            "key": "1348_CR15",
+            "series-title": "Applied Mathematical Sciences",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1007/978-1-4612-9892-2",
+            "volume-title": "Theory of Functional Differential Equations",
+            "author": "J Hale",
+            "year": "1977",
+            "unstructured": "Hale, J.: Theory of Functional Differential Equations. Applied Mathematical Sciences, vol. 3. Springer, New York (1977)"
+          },
+          {
+            "key": "1348_CR16",
+            "series-title": "Applied Mathematical Sciences",
+            "doi-asserted-by": "crossref",
+            "DOI": "10.1007/978-1-4612-4342-7",
+            "volume-title": "Introduction to Functional Differential Equations",
+            "author": "JK Hale",
+            "year": "1993",
+            "unstructured": "Hale, J.K., Verduyn Lunel, S.M.: Introduction to Functional Differential Equations. Applied Mathematical Sciences, vol. 99. Springer, New York (1993)"
+          },
+          {
+            "key": "1348_CR17",
+            "doi-asserted-by": "publisher",
+            "first-page": "219",
+            "DOI": "10.1016/S0022-0396(02)00063-3",
+            "volume": "197",
+            "author": "JK Hale",
+            "year": "2004",
+            "unstructured": "Hale, J.K., Weedermann, M.: On perturbations of delay-differential equations with periodic orbits. J. Differ. Equ. 197, 219\u2013246 (2004)",
+            "journal-title": "J. Differ. Equ."
+          },
+          {
+            "issue": "2",
+            "key": "1348_CR18",
+            "doi-asserted-by": "publisher",
+            "first-page": "396",
+            "DOI": "10.1016/S0022-0396(02)00106-7",
+            "volume": "189",
+            "author": "M Han",
+            "year": "2003",
+            "unstructured": "Han, M.: Bifurcations of periodic solutions of delay differential equations. J. Differ. Equ. 189(2), 396\u2013411 (2003)",
+            "journal-title": "J. Differ. Equ."
+          },
+          {
+            "issue": "5",
+            "key": "1348_CR19",
+            "doi-asserted-by": "publisher",
+            "first-page": "1027",
+            "DOI": "10.1016/j.chaos.2003.09.017",
+            "volume": "20",
+            "author": "M Han",
+            "year": "2004",
+            "unstructured": "Han, M., Bi, P.: Existence and bifurcation of periodic solutions of high-dimensional delay differential equations. Chaos Solit. Fract. 20(5), 1027\u20131036 (2004)",
+            "journal-title": "Chaos Solit. Fract."
+          },
+          {
+            "key": "1348_CR20",
+            "unstructured": "Hbid, M.L., Qesmi, R.: Periodic solutions for functional differential equations with periodic delay close to zero. Electr. J. Differ. Equ. (2006)"
+          },
+          {
+            "key": "1348_CR21",
+            "doi-asserted-by": "publisher",
+            "first-page": "317",
+            "DOI": "10.1016/0022-247X(74)90162-0",
+            "volume": "48",
+            "author": "JL Kaplan",
+            "year": "1974",
+            "unstructured": "Kaplan, J.L., Yorke, J.A.: Ordinary differential equations which yield periodic solutions of differential delay equations. J. Math. Anal. Appl. 48, 317\u2013324 (1974)",
+            "journal-title": "J. Math. Anal. Appl."
+          },
+          {
+            "issue": "1",
+            "key": "1348_CR22",
+            "doi-asserted-by": "publisher",
+            "first-page": "815",
+            "DOI": "10.1007/s10884-023-10289-9",
+            "volume": "37",
+            "author": "B Lentjes",
+            "year": "2025",
+            "unstructured": "Lentjes, B., Spek, L., Bosschaert, M.M., Kuznetsov, Y.A.: Periodic center manifolds and normal forms for delay differential equations in the light of suns and stars. J. Dynam. Differ. Equ. 37(1), 815\u2013858 (2025)",
+            "journal-title": "J. Dynam. Differ. Equ."
+          },
+          {
+            "key": "1348_CR23",
+            "doi-asserted-by": "publisher",
+            "first-page": "45",
+            "DOI": "10.1016/S0362-546X(96)00058-2",
+            "volume": "31",
+            "author": "J Li",
+            "year": "1998",
+            "unstructured": "Li, J., He, X.: Multiple periodic solutions of differential delay equations created by asymptotically linear Hamiltonian systems. Nonlinear Anal. T. M. A. 31, 45\u201354 (1998)",
+            "journal-title": "Nonlinear Anal. T. M. A."
+          },
+          {
+            "issue": "9",
+            "key": "1348_CR24",
+            "doi-asserted-by": "publisher",
+            "first-page": "957",
+            "DOI": "10.1007/BF02880387",
+            "volume": "42",
+            "author": "J Li",
+            "year": "1999",
+            "unstructured": "Li, J., He, X.: Proof and generalization of Kaplan-Yorke\u2019s conjecture under the condition $$f^{\\prime }(0) > 0$$ on periodic solution of differential delay equations. Sci. China (Ser. A) 42(9), 957\u2013964 (1999)",
+            "journal-title": "Sci. China (Ser. A)"
+          },
+          {
+            "issue": "9",
+            "key": "1348_CR25",
+            "doi-asserted-by": "publisher",
+            "first-page": "441",
+            "DOI": "10.1007/s11401-004-0365-0",
+            "volume": "27",
+            "author": "C Liu",
+            "year": "2006",
+            "unstructured": "Liu, C.: Maslov $$P$$-index theory for a symplectic path with applications. Chin. Ann. Math. Ser. B 27(9), 441\u2013458 (2006)",
+            "journal-title": "Chin. Ann. Math. Ser. B"
+          },
+          {
+            "key": "1348_CR26",
+            "doi-asserted-by": "publisher",
+            "first-page": "5712",
+            "DOI": "10.1016/j.jde.2012.02.009",
+            "volume": "252",
+            "author": "C Liu",
+            "year": "2012",
+            "unstructured": "Liu, C.: Periodic solutions of asymptotically linear delay differential systems via Hamiltonian systems. J. Differ. Equ. 252, 5712\u20135734 (2012)",
+            "journal-title": "J. Differ. Equ."
+          },
+          {
+            "key": "1348_CR27",
+            "doi-asserted-by": "publisher",
+            "first-page": "963",
+            "DOI": "10.1515/ans-2015-0412",
+            "volume": "15",
+            "author": "C Liu",
+            "year": "2015",
+            "unstructured": "Liu, C., Tang, S.: Maslov $$(P;\\omega )$$-index theory for symplectic paths. Adv. Nonlinear Stud. 15, 963\u2013990 (2015)",
+            "journal-title": "Adv. Nonlinear Stud."
+          },
+          {
+            "key": "1348_CR28",
+            "first-page": "47",
+            "volume": "10",
+            "author": "Y Long",
+            "year": "1997",
+            "unstructured": "Long, Y.: A Maslov-type index theory for symplectic paths. Top. Meth. Nonl. Anal. 10, 47\u201378 (1997)",
+            "journal-title": "Top. Meth. Nonl. Anal."
+          },
+          {
+            "key": "1348_CR29",
+            "series-title": "Progress in Mathematics",
+            "volume-title": "Index Theory for Symplectic Paths with Applications",
+            "author": "Y Long",
+            "year": "2012",
+            "unstructured": "Long, Y.: Index Theory for Symplectic Paths with Applications. Progress in Mathematics, vol. 207. Birkhauser, Basel (2012)"
+          },
+          {
+            "key": "1348_CR30",
+            "unstructured": "L\u00f3pez-Nieto, A.: Global bifurcation of periodic solutions in delay equations with symmetric monotone feedback. arXiv:2002.01313v2 [math.DS]"
+          },
+          {
+            "issue": "2",
+            "key": "1348_CR31",
+            "doi-asserted-by": "publisher",
+            "first-page": "408",
+            "DOI": "10.1515/ans-2023-0211",
+            "volume": "26",
+            "author": "G Lu",
+            "year": "2026",
+            "unstructured": "Lu, G.: Bifurcations for Hamiltonian systems. Adv. Nonlinear Stud. 26(2), 408\u2013504 (2026). https://doi.org/10.1515/ans-2023-0211. arXiv:2112.10726v6 [math.DS]",
+            "journal-title": "Adv. Nonlinear Stud."
+          },
+          {
+            "key": "1348_CR32",
+            "unstructured": "Lu, G.: Bifurcations of periodic and antiperiodic orbits near an equilibrium in autonomous differential delay systems with one or two delays. arXiv:2607.14533v1 math.DS"
+          },
+          {
+            "key": "1348_CR33",
+            "doi-asserted-by": "publisher",
+            "first-page": "319",
+            "DOI": "10.1016/0022-1236(75)90061-0",
+            "volume": "19",
+            "author": "RD Nussbaum",
+            "year": "1975",
+            "unstructured": "Nussbaum, R.D.: A global bifurcation theorem with applications to functional differential equations. J. Funct. Anal. 19, 319\u2013339 (1975)",
+            "journal-title": "J. Funct. Anal."
+          },
+          {
+            "issue": "6",
+            "key": "1348_CR34",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1103/PhysRevE.72.066206",
+            "volume": "72",
+            "author": "E Thomas",
+            "year": "2005",
+            "unstructured": "Thomas, E., Walther, H.O.: Bifurcation to large period oscillations in physical systems controlled by delay. Phys. Rev. E 72(6), 066206 (2005)",
+            "journal-title": "Phys. Rev. E"
+          },
+          {
+            "key": "1348_CR35",
+            "doi-asserted-by": "publisher",
+            "first-page": "394",
+            "DOI": "10.1016/0022-0396(78)90049-9",
+            "volume": "29",
+            "author": "HO Walther",
+            "year": "1978",
+            "unstructured": "Walther, H.O.: A theorem on the amplitudes of periodic solutions of differential delay equations with application to bifurcation. J. Differ. Equ. 29, 394\u2013404 (1978)",
+            "journal-title": "J. Differ. Equ."
+          },
+          {
+            "issue": "2",
+            "key": "1348_CR36",
+            "doi-asserted-by": "publisher",
+            "first-page": "269",
+            "DOI": "10.1007/BF01175630",
+            "volume": "182",
+            "author": "HO Walther",
+            "year": "1983",
+            "unstructured": "Walther, H.O.: Bifurcation from periodic solutions in functional differential equations. Math. Z. 182(2), 269\u2013290 (1983)",
+            "journal-title": "Math. Z."
+          },
+          {
+            "issue": "4",
+            "key": "1348_CR37",
+            "doi-asserted-by": "publisher",
+            "first-page": "577",
+            "DOI": "10.1007/s10231-005-0170-8",
+            "volume": "185",
+            "author": "HO Walther",
+            "year": "2006",
+            "unstructured": "Walther, H.O.: Bifurcation of periodic solutions with large periods for a delay differential equation. Ann. Mat. Pura Appl. 185(4), 577\u2013611 (2006)",
+            "journal-title": "Ann. Mat. Pura Appl."
+          },
+          {
+            "key": "1348_CR38",
+            "doi-asserted-by": "publisher",
+            "first-page": "87",
+            "DOI": "10.1365/s13291-014-0086-6",
+            "volume": "116",
+            "author": "HO Walther",
+            "year": "2014",
+            "unstructured": "Walther, H.O.: Topics in Delay Differential Equations. Jahresber Dtsch Math-Ver 116, 87\u2013114 (2014)",
+            "journal-title": "Jahresber Dtsch Math-Ver"
+          },
+          {
+            "key": "1348_CR39",
+            "doi-asserted-by": "publisher",
+            "first-page": "159",
+            "DOI": "10.1016/j.na.2014.02.008",
+            "volume": "102",
+            "author": "Q Wang",
+            "year": "2014",
+            "unstructured": "Wang, Q., Liu, C.: Periodic solutions of delay differential systems via Hamiltonian systems. Nonlinear Anal. 102, 159\u2013167 (2014)",
+            "journal-title": "Nonlinear Anal."
+          },
+          {
+            "key": "1348_CR40",
+            "doi-asserted-by": "publisher",
+            "first-page": "1",
+            "DOI": "10.1016/j.jde.2022.04.039",
+            "volume": "329",
+            "author": "B Zhou",
+            "year": "2022",
+            "unstructured": "Zhou, B., Liu, C., Zhou, Z., Zhang, X.: Minimal $$M$$-symmetric periodic solutions of general Hamiltonian systems and delay differential equations. J. Differ. Equ. 329, 1\u201330 (2022)",
+            "journal-title": "J. Differ. Equ."
+          },
+          {
+            "key": "1348_CR41",
+            "doi-asserted-by": "publisher",
+            "first-page": "99",
+            "DOI": "10.1016/j.jde.2024.11.050",
+            "volume": "420",
+            "author": "Y Zhong",
+            "year": "2025",
+            "unstructured": "Zhong, Y., Wang, Q., Liu, C.: The existence and multiplicity of symmetrical periodic solutions for asymptotically linear distributed delay differential systems. J. Differ. Equ. 420, 99\u2013117 (2025)",
+            "journal-title": "J. Differ. Equ."
+          }
+        ],
+        "container-title": [
+          "Journal of Fixed Point Theory and Applications"
+        ],
+        "original-title": [],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s11784-026-01348-x.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/article/10.1007/s11784-026-01348-x",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s11784-026-01348-x.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              12
+            ]
+          ],
+          "date-time": "2026-10-12T04:46:20Z",
+          "timestamp": 1791780380000
+        },
+        "score": 1,
+        "resource": {
+          "primary": {
+            "URL": "https://link.springer.com/10.1007/s11784-026-01348-x"
+          }
+        },
+        "subtitle": [],
+        "short-title": [],
+        "issued": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              12
+            ]
+          ]
+        },
+        "references-count": 41,
+        "journal-issue": {
+          "issue": "4",
+          "published-print": {
+            "date-parts": [
+              [
+                2026,
+                12
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "1348"
+        ],
+        "URL": "https://doi.org/10.1007/s11784-026-01348-x",
+        "relation": {},
+        "ISSN": [
+          "1661-7738",
+          "1661-7746"
+        ],
+        "issn-type": [
+          {
+            "value": "1661-7738",
+            "type": "print"
+          },
+          {
+            "value": "1661-7746",
+            "type": "electronic"
+          }
+        ],
+        "subject": [],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              12
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "23 September 2026",
+            "order": 1,
+            "name": "accepted",
+            "label": "Accepted",
+            "group": {
+              "name": "ArticleHistory",
+              "label": "Article History"
+            }
+          },
+          {
+            "value": "12 October 2026",
+            "order": 2,
+            "name": "first_online",
+            "label": "First Online",
+            "group": {
+              "name": "ArticleHistory",
+              "label": "Article History"
+            }
+          },
+          {
+            "value": "The author declares that there is no conflict of interest regarding the publication of this paper.",
+            "order": 1,
+            "name": "Ethics",
+            "label": "Conflict of interest",
+            "group": {
+              "name": "EthicsHeading",
+              "label": "Declarations"
+            }
+          }
+        ],
+        "article-number": "89"
+      }
+    },
+    {
+      "doi": "10.1007/s12046-026-03412-1",
+      "topics": [
+        "load-forecasting"
+      ],
+      "title": "Study on marketing dynamics on sales of electric vehicles and SWOT analysis",
+      "journal": "S\u0101dhan\u0101",
+      "publisher": "Springer Science and Business Media LLC",
+      "authors": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-2226-1845",
+          "authenticated-orcid": false,
+          "given": "K",
+          "family": "Somasundaram",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "publication_date": [
+        [
+          2026,
+          10,
+          12
+        ]
+      ],
+      "url": "https://doi.org/10.1007/s12046-026-03412-1",
+      "verification": "Crossref DOI and journal-article metadata only",
+      "peer_review": "unconfirmed",
+      "relevance": "requires expert screening",
+      "source_metadata": {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              12
+            ]
+          ],
+          "date-time": "2026-10-12T17:50:32Z",
+          "timestamp": 1791827432677,
+          "version": "4.3.4"
+        },
+        "reference-count": 26,
+        "publisher": "Springer Science and Business Media LLC",
+        "issue": "4",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  10,
+                  12
+                ]
+              ],
+              "date-time": "2026-10-12T00:00:00Z",
+              "timestamp": 1791763200000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  10,
+                  12
+                ]
+              ],
+              "date-time": "2026-10-12T00:00:00Z",
+              "timestamp": 1791763200000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "link.springer.com"
+          ],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "S\u0101dhan\u0101"
+        ],
+        "DOI": "10.1007/s12046-026-03412-1",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              12
+            ]
+          ],
+          "date-time": "2026-10-12T17:25:08Z",
+          "timestamp": 1791825908000
+        },
+        "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Study on marketing dynamics on sales of electric vehicles and SWOT analysis"
+        ],
+        "prefix": "10.1007",
+        "volume": "51",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0003-2226-1845",
+            "authenticated-orcid": false,
+            "given": "K",
+            "family": "Somasundaram",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "member": "297",
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              12
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "3412_CR1",
+            "first-page": "1",
+            "volume": "24",
+            "author": "L Duan",
+            "year": "2021",
+            "unstructured": "Duan L and Da Xu 2021 \u201cData Analytics in Industry 4.0: A Survey, Information Systems Frontiers, 24: 1\u20137",
+            "journal-title": "Information System Frontiers"
+          },
+          {
+            "key": "3412_CR2",
+            "unstructured": "Singh T P, Choudhury Tanupriya, Abujar Sheikh, Hack-Polay Dieu and Jeyanthi P Mary 2021 Decision Intelligence Analytics and the Implementation of Strategic Busi ness Management, Springer AG"
+          },
+          {
+            "key": "3412_CR3",
+            "doi-asserted-by": "publisher",
+            "first-page": "544",
+            "DOI": "10.1016/j.apenergy.2016.06.133",
+            "volume": "179",
+            "author": "Tingting Fang",
+            "year": "2016",
+            "unstructured": "Fang, Tingting and Risto Lahdelma 2016 \"Evaluation of a multiple linear regression model and SARIMA model in forecasting heat demand for district heating system.\" Applied Energy 179: 544\u2013552",
+            "journal-title": "Applied Energy"
+          },
+          {
+            "issue": "3",
+            "key": "3412_CR4",
+            "first-page": "4434",
+            "volume": "3",
+            "author": "Nishchol Mishra",
+            "year": "2012",
+            "unstructured": "Mishra Nishchol and Sanjay Silakari 2012 \u201cPredictive analytics: a survey, trends, applications, opportunities & challenges\u201d, International Journal of Computer Science and Information Technologies, 3(3): 4434\u20134438",
+            "journal-title": "International Journal of Computer Science and Information Technologies"
+          },
+          {
+            "issue": "4",
+            "key": "3412_CR5",
+            "first-page": "3",
+            "volume": "23",
+            "author": "Erhard Rahm",
+            "year": "2000",
+            "unstructured": "Rahm Erhard and Hong Hai Do 2000 \u201cData cleaning: Problems and current approaches\u201d, IEEE Data Eng. Bull. 23(4): 3\u201313",
+            "journal-title": "IEEE Data Eng. Bull."
+          },
+          {
+            "key": "3412_CR6",
+            "unstructured": "Brownlee, Jason. 2017 Introduction to time series forecasting with python: how to prepare data and develop models to predict the future. Machine Learning Mastery"
+          },
+          {
+            "key": "3412_CR7",
+            "unstructured": "Ord J Keith and Robert Fildes 2013. Principles of business forecasting. South-Western Cengage Learning"
+          },
+          {
+            "key": "3412_CR8",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.7717/peerj-cs.623",
+            "volume": "7",
+            "author": "Davide Chicco",
+            "year": "2021",
+            "unstructured": "Chicco, Davide, Matthijs J Warrens and Giuseppe Jurman 2021 \"The coefficient of determination R-squared is more informative than SMAPE, MAE, MAPE, MSE and RMSE in regression analysis evaluation.\" Peerj Computer Science 7: e623",
+            "journal-title": "Peerj Computer Science"
+          },
+          {
+            "issue": "20",
+            "key": "3412_CR9",
+            "first-page": "3917",
+            "volume": "118",
+            "author": "Badireddi Dora",
+            "year": "2020",
+            "unstructured": "Badireddi Dora and Sindhu M R 2020 \u201cFuzzy based charging Strategy for a smart EV parking lot\u201d, International Journal of Pure and Applied Mathematics, 118(20): 3917\u20133924",
+            "journal-title": "International Journal of Pure and Applied Mathematics"
+          },
+          {
+            "key": "3412_CR10",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Yesheswini B, Preetha S, Jai Iswarya, Bontha Amani, Punnya Prakash and Sindhu M R 2020 \u201cSolar PV charging station for electric vehicles. In: 2020 International Conference for emerging\u00a0 Technology (INCET), 1\u20137",
+            "DOI": "10.1109/INCET49848.2020.9154187"
+          },
+          {
+            "key": "3412_CR11",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.energy.2025.134582",
+            "volume": "317",
+            "author": "Makaremi Saeed",
+            "year": "2025",
+            "unstructured": "Makaremi Saeed. 2025 \"A multi-output deep learning model for energy demand and port availability forecasting in EV charging infrastructure.\" Energy 317: 134582",
+            "journal-title": "Energy"
+          },
+          {
+            "issue": "3",
+            "key": "3412_CR12",
+            "doi-asserted-by": "publisher",
+            "first-page": "4924",
+            "DOI": "10.1109/TIA.2025.3540788",
+            "volume": "61",
+            "author": "Magda I El-Afifi",
+            "year": "2025",
+            "unstructured": "El-Afifi, Magda I, Abdelfattah A Eladl, Bishoy E Sedhom and Mohamed A Hassan 2025 \"Enhancing EV Charging Station Integration: A Hybrid ARIMA-LSTM Forecasting and Optimization Framework.\" IEEE Transactions on Industry Applications, 61 (3): 4924\u20134935",
+            "journal-title": "IEEE Transactions on Industry Applications"
+          },
+          {
+            "key": "3412_CR13",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.epsr.2024.111091",
+            "volume": "238",
+            "author": "Juan Ran",
+            "year": "2025",
+            "unstructured": "Ran, Juan, Yunbo Gong, Yu Hu and JiaLing Cai 2025 \"EV load forecasting using a refined CNN-LSTM-AM.\" Electric Power Systems Research, 238: 111091",
+            "journal-title": "Electric Power Systems Research"
+          },
+          {
+            "issue": "9",
+            "key": "3412_CR14",
+            "doi-asserted-by": "publisher",
+            "first-page": "6737",
+            "DOI": "10.1007/s13042-025-02643-8",
+            "volume": "16",
+            "author": "Aristeidis Mystakidis",
+            "year": "2025",
+            "unstructured": "Mystakidis, Aristeidis, Nikolaos Tsalikidis, Paraskevas Koukaras, Georgios Skaltsis, Dimosthenis Ioannidis, Christos Tjortjis, and Dimitrios Tzovaras 2025 \"EV charging forecasting exploiting traffic, weather and user information.\" International Journal of Machine Learning and Cybernetics, 16(9): 6737\u20136763",
+            "journal-title": "International Journal of Machine Learning and Cybernetics"
+          },
+          {
+            "key": "3412_CR15",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.sftr.2025.100857",
+            "volume": "10",
+            "author": "Mohammad Hasan Ghodusinejad",
+            "year": "2025",
+            "unstructured": "Ghodusinejad, Mohammad Hasan, Hossein Yousefi and Mohammad Sotoodeh 2025 \"Demand Forecasting and PV/EV-integrated Energy System Modeling for Achieving a Sustainable Island.\" Sustainable Futures, 10: 100857",
+            "journal-title": "Sustainable Futures"
+          },
+          {
+            "key": "3412_CR16",
+            "doi-asserted-by": "crossref",
+            "unstructured": "Dipto, Durjoy Roy, Md Tanvir Rahman, Sowrov Komar Shib, Abu Shufian and Riadul Islam 2025. \"Dynamic Load Forecasting in EV Charging Systems Using Deep Neural Networks.\" In 2025 4th International Conference on Robotics, Electrical and Signal Processing Techniques (ICREST), pp. 81-85. IEEE, 2025",
+            "DOI": "10.1109/ICREST63960.2025.10914382"
+          },
+          {
+            "issue": "1",
+            "key": "3412_CR17",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1063/5.0244546",
+            "volume": "17",
+            "author": "Zeli Xi",
+            "year": "2025",
+            "unstructured": "Xi, Zeli, Guowei Guo, Xinsen Yang, Jian Sun, Xuntao Shi and Xiaobing Xiao 2025 \"Forecasting and managing urban EV charging demand with spatiotemporal graph models.\" Journal of Renewable and Sustainable Energy, 17(1): 015502",
+            "journal-title": "Journal of Renewable and Sustainable Energy"
+          },
+          {
+            "key": "3412_CR18",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.energy.2025.137456",
+            "volume": "333",
+            "author": "Jie Dai",
+            "year": "2025",
+            "unstructured": "Dai, Jie, Qiong Yuan, Helen Huifen Cai, Vince Zhang, Md Hasanuzaman and Selvaraj J 2025 \"Business-oriented optimization of EV-to-building energy flows: Predictive modeling and scenario evaluation.\" Energy, 333: 137456",
+            "journal-title": "Energy"
+          },
+          {
+            "key": "3412_CR19",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.apenergy.2026.127365",
+            "volume": "407",
+            "author": "Alexander Aushev",
+            "year": "2026",
+            "unstructured": "Aushev, Alexander, Joel Anttila, Yancho Todorov, Ari Hentunen and Mikko Pihlatie.2026 \"WeTRaC: Scalable EV charging demand forecasting for heavy-duty fleets.\" Applied Energy 407: 127365",
+            "journal-title": "Applied Energy"
+          },
+          {
+            "key": "3412_CR20",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.ijepes.2025.111510",
+            "volume": "174",
+            "author": "Zhe Qiu",
+            "year": "2026",
+            "unstructured": "Qiu, Zhe, Shuaibing Li, Yi Cui, Lixia Yang, Yongqiang Kang and Xiping Ma 2026 \"Stochastic urban EV load forecasting: integrating markov-monte carlo simulation with spatio-temporal and traffic-weather dynamics.\" International Journal of Electrical Power & Energy Systems 174: 111510",
+            "journal-title": "International Journal of Electrical Power & Energy Systems"
+          },
+          {
+            "key": "3412_CR21",
+            "unstructured": "https://www.data.gov.in"
+          },
+          {
+            "key": "3412_CR22",
+            "unstructured": "https://parivahan.gov.in"
+          },
+          {
+            "key": "3412_CR23",
+            "unstructured": "https://www.bikedekho.com (Accessed on May 4th, 2022)"
+          },
+          {
+            "key": "3412_CR24",
+            "unstructured": "https://trucks.cardekho.com (Accessed on May 4th, 2022)"
+          },
+          {
+            "key": "3412_CR25",
+            "unstructured": "https://www.cardekho.com (Accessed on May 4th, 2022)"
+          },
+          {
+            "key": "3412_CR26",
+            "unstructured": "https://buses.cardekho.com (Accessed on May 4th, 2022)"
+          }
+        ],
+        "container-title": [
+          "S\u0101dhan\u0101"
+        ],
+        "original-title": [],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s12046-026-03412-1.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/article/10.1007/s12046-026-03412-1",
+            "content-type": "text/html",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://link.springer.com/content/pdf/10.1007/s12046-026-03412-1.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              12
+            ]
+          ],
+          "date-time": "2026-10-12T17:25:12Z",
+          "timestamp": 1791825912000
+        },
+        "score": 1,
+        "resource": {
+          "primary": {
+            "URL": "https://link.springer.com/10.1007/s12046-026-03412-1"
+          }
+        },
+        "subtitle": [],
+        "short-title": [],
+        "issued": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              12
+            ]
+          ]
+        },
+        "references-count": 26,
+        "journal-issue": {
+          "issue": "4",
+          "published-online": {
+            "date-parts": [
+              [
+                2026,
+                12
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "3412"
+        ],
+        "URL": "https://doi.org/10.1007/s12046-026-03412-1",
+        "relation": {},
+        "ISSN": [
+          "0973-7677"
+        ],
+        "issn-type": [
+          {
+            "value": "0973-7677",
+            "type": "electronic"
+          }
+        ],
+        "subject": [],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              12
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "2 September 2024",
+            "order": 1,
+            "name": "received",
+            "label": "Received",
+            "group": {
+              "name": "ArticleHistory",
+              "label": "Article History"
+            }
+          },
+          {
+            "value": "9 April 2026",
+            "order": 2,
+            "name": "revised",
+            "label": "Revised",
+            "group": {
+              "name": "ArticleHistory",
+              "label": "Article History"
+            }
+          },
+          {
+            "value": "8 May 2026",
+            "order": 3,
+            "name": "accepted",
+            "label": "Accepted",
+            "group": {
+              "name": "ArticleHistory",
+              "label": "Article History"
+            }
+          },
+          {
+            "value": "12 October 2026",
+            "order": 4,
+            "name": "first_online",
+            "label": "First Online",
+            "group": {
+              "name": "ArticleHistory",
+              "label": "Article History"
+            }
+          }
+        ],
+        "article-number": "371"
+      }
+    }
+  ]
+}
