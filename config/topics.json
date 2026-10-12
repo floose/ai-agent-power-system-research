@@ -1,0 +1,13 @@
+{
+  "lookback_days": 30,
+  "rows_per_topic": 20,
+  "max_papers": 5,
+  "preferred_publishers": ["IEEE", "Institute of Electrical", "Elsevier"],
+  "topics": [
+    {"id": "optimal-power-flow", "query": "power systems optimal power flow machine learning artificial intelligence"},
+    {"id": "load-forecasting", "query": "electric load forecasting day ahead intraday machine learning"},
+    {"id": "dynamic-line-rating", "query": "dynamic line rating machine learning"},
+    {"id": "bess", "query": "battery energy storage power system reinforcement learning control"},
+    {"id": "converter-control", "query": "grid power converter control artificial intelligence machine learning"}
+  ]
+}
