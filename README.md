@@ -28,3 +28,7 @@ This schedule is independent from the ChatGPT task â€œPower Systems AI Researchâ
 Verify publisher page, journal review policy, identity, publication status, corrections/retractions and full text. Record methods, objectives/constraints, datasets, leakage controls, baselines, quantitative results with units, feasibility and limitations, citing exact source pages/sections. Separate optimization from learning and simulation from field validation. Use IEEE numbered citations only after validating complete bibliographic fields.
 
 Documentation: [Crossref REST API](https://github.com/Crossref/rest-api-doc), [Crossref filters](https://www.crossref.org/documentation/retrieve-metadata/rest-api/rest-api-filters/), [GitHub scheduled events](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows).
+
+## Scope correction
+
+The initial 2026-10-12 candidate report contained off-topic records and must not be accepted. See `docs/screening-review.md`. The corrected search ranks by relevance and requires configured journal scope, exact in-window publication date, and separate title/abstract evidence for grid context, AI method and assigned topics. The JSON report records screening decisions. Conservative screening can produce zero candidates; journal additions and sparse metadata require expert review. This is still metadata screening, not verified scientific synthesis.
