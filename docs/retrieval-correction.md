@@ -9,3 +9,5 @@ IEEE Access, IEEE Open Journal of Power Electronics and Sustainable Energy, Grid
 Offline development-set screening retains 9/10 relevant controls and rejects 5/5 negatives. The remaining flexible-demand microgrid paper lacks battery/storage evidence in its title and has no Crossref abstract; it requires verified source enrichment rather than automatic acceptance. These fractions are not held-out performance estimates. Full-text scientific acceptance remains separate.
 
 Run `python scripts/validate_retrieval.py` to reproduce screening. Historical retrieval remains sensitive to online-first versus issue-year dates and the bounded search. A future revision must test date-aware retrieval and source enrichment on an independent set before unattended deployment. This change does not claim to complete scientific-agent validation.
+
+Live historical search with the revised queries retrieved 8/10 controls, with no API errors, compared with 2/10 in the baseline. Final screening was evaluated separately on the same cached records and retained 9/10. Per-record outcomes are in retrieval-live-results.json. This remains development-set tuning, not independent validation.
