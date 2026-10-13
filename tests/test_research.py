@@ -2,11 +2,11 @@ import io
 import unittest
 from unittest.mock import Mock
 from urllib.error import HTTPError, URLError
-from scripts.research import Crossref, discover, markdown, normalize_doi
+from scripts.research import Crossref, discover, markdown, normalize_doi, screen
 # Synthetic fixtures, not scientific references.
 DOI = '10.99999/test-fixture'
-ITEM = {'DOI': DOI, 'type': 'journal-article', 'title': ['Synthetic fixture'], 'publisher': 'IEEE'}
-CONFIG = {'topics': [{'id': 'opf', 'query': 'opf'}, {'id': 'bess', 'query': 'bess'}], 'rows_per_topic': 5, 'max_papers': 5, 'preferred_publishers': ['IEEE']}
+ITEM = {'DOI': DOI, 'type': 'journal-article', 'title': ['Synthetic fixture: machine learning optimal power flow for power systems'], 'publisher': 'IEEE', 'container-title': ['Fixture journal'], 'published': {'date-parts': [[2026, 1, 15]]}}
+CONFIG = {'journals': ['Fixture journal'], 'grid_patterns': ['power systems'], 'ai_patterns': ['machine learning'], 'topics': [{'id': 'opf', 'query': 'opf', 'patterns': ['optimal power flow']}, {'id': 'bess', 'query': 'bess', 'patterns': ['battery energy storage']}], 'rows_per_topic': 5, 'max_papers': 5, 'preferred_publishers': ['IEEE']}
 class Tests(unittest.TestCase):
     def test_normalization(self):
         self.assertEqual(normalize_doi(' HTTPS://DOI.ORG/10.99999/TEST-FIXTURE '), DOI)
@@ -19,7 +19,7 @@ class Tests(unittest.TestCase):
         client.validate.return_value = ITEM
         papers = discover(client, CONFIG, [], '2026-01-01', '2026-01-30')
         self.assertEqual(len(papers), 1)
-        self.assertEqual(papers[0]['topics'], ['opf', 'bess'])
+        self.assertEqual(papers[0]['topics'], ['opf'])
         client.validate.assert_called_once_with(DOI)
         self.assertEqual(discover(client, CONFIG, [DOI.upper()], '2026-01-01', '2026-01-30'), [])
         self.assertIn('Results: not assessed', markdown(papers, 'start', 'end'))
@@ -46,7 +46,17 @@ class Tests(unittest.TestCase):
         client = Mock()
         client.search.return_value = [ITEM]
         client.validate.side_effect = URLError('offline')
-        with self.assertRaises(URLError): discover(client,CONFIG,[],'start','end')
+        with self.assertRaises(URLError): discover(client,CONFIG,[],'2026-01-01','2026-01-30')
+    def test_scope_and_dates(self):
+        for fields in [
+            {'container-title': ['Small Methods']},
+            {'title': ['Machine learning electrode electrolyte interphase chemistry']},
+            {'title': ['Optimal power flow for power systems']},
+            {'title': ['Machine learning power systems with generic digital twins']},
+            {'published': {'date-parts': [[2026, 2, 1]]}},
+            {'published': {'date-parts': [[2026, 1]]}},
+        ]:
+            self.assertEqual(screen({**ITEM, **fields}, CONFIG, '2026-01-01', '2026-01-30')[0], [])
     def test_empty(self):
         self.assertIn('No new DOI-validated', markdown([], 'start', 'end'))
 if __name__ == '__main__': unittest.main()

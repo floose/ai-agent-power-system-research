@@ -1,13 +1,102 @@
 {
   "lookback_days": 30,
-  "rows_per_topic": 20,
+  "rows_per_topic": 50,
   "max_papers": 5,
-  "preferred_publishers": ["IEEE", "Institute of Electrical", "Elsevier"],
+  "preferred_publishers": [
+    "IEEE",
+    "Institute of Electrical",
+    "Elsevier"
+  ],
   "topics": [
-    {"id": "optimal-power-flow", "query": "power systems optimal power flow machine learning artificial intelligence"},
-    {"id": "load-forecasting", "query": "electric load forecasting day ahead intraday machine learning"},
-    {"id": "dynamic-line-rating", "query": "dynamic line rating machine learning"},
-    {"id": "bess", "query": "battery energy storage power system reinforcement learning control"},
-    {"id": "converter-control", "query": "grid power converter control artificial intelligence machine learning"}
+    {
+      "id": "optimal-power-flow",
+      "query": "power systems optimal power flow machine learning artificial intelligence",
+      "patterns": [
+        "\\boptimal power flow\\b",
+        "\\bsecurity.constrained.*dispatch",
+        "\\beconomic dispatch\\b"
+      ]
+    },
+    {
+      "id": "load-forecasting",
+      "query": "electric load forecasting day ahead intraday machine learning",
+      "patterns": [
+        "\\bload forecast",
+        "\\belectricity demand forecast",
+        "\\belectric(?:al)? demand predict"
+      ]
+    },
+    {
+      "id": "dynamic-line-rating",
+      "query": "dynamic line rating machine learning",
+      "patterns": [
+        "\\bdynamic line rating",
+        "\\bdynamic thermal rating",
+        "\\bline ampacity"
+      ]
+    },
+    {
+      "id": "bess",
+      "query": "battery energy storage power system reinforcement learning control",
+      "patterns": [
+        "\\bbattery energy storage",
+        "\\bBESS\\b"
+      ]
+    },
+    {
+      "id": "converter-control",
+      "query": "grid power converter control artificial intelligence machine learning",
+      "patterns": [
+        "\\bconverter",
+        "\\binverter",
+        "\\bSTATCOM\\b"
+      ]
+    }
+  ],
+  "journals": [
+    "IEEE Transactions on Power Systems",
+    "IEEE Transactions on Smart Grid",
+    "IEEE Transactions on Power Delivery",
+    "IEEE Transactions on Sustainable Energy",
+    "IEEE Transactions on Energy Conversion",
+    "IEEE Transactions on Power Electronics",
+    "IEEE Journal of Emerging and Selected Topics in Power Electronics",
+    "International Journal of Electrical Power & Energy Systems",
+    "Electric Power Systems Research",
+    "Applied Energy",
+    "Energy",
+    "Renewable Energy",
+    "Journal of Energy Storage",
+    "IET Generation, Transmission & Distribution",
+    "IET Renewable Power Generation",
+    "Protection and Control of Modern Power Systems"
+  ],
+  "ai_patterns": [
+    "\\bmachine learning\\b",
+    "\\bdeep learning\\b",
+    "\\breinforcement learning\\b",
+    "\\bneural network",
+    "\\bartificial intelligence\\b",
+    "\\bphysics.informed\\b",
+    "\\bdata.driven\\b",
+    "\\blearning.based\\b",
+    "\\brandom forest",
+    "\\bgradient boosting\\b",
+    "\\bsupport vector\\b"
+  ],
+  "grid_patterns": [
+    "\\bpower system",
+    "\\bpower grid",
+    "\\belectric(?:al)? grid",
+    "\\bmicrogrid",
+    "\\bdistribution network",
+    "\\btransmission (?:network|line)",
+    "\\bgrid.connected",
+    "\\bgrid.forming",
+    "\\bgrid.following",
+    "\\bpower flow",
+    "\\belectric(?:ity|al)? load",
+    "\\bload forecast",
+    "\\bdynamic line rating"
   ]
 }
