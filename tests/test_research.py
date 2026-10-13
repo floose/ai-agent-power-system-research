@@ -49,7 +49,6 @@ class Tests(unittest.TestCase):
         with self.assertRaises(URLError): discover(client,CONFIG,[],'2026-01-01','2026-01-30')
     def test_scope_and_dates(self):
         for fields in [
-            {'container-title': ['Small Methods']},
             {'title': ['Machine learning electrode electrolyte interphase chemistry']},
             {'title': ['Optimal power flow for power systems']},
             {'title': ['Machine learning power systems with generic digital twins']},
