@@ -10,7 +10,7 @@
   "topics": [
     {
       "id": "optimal-power-flow",
-      "query": "power systems optimal power flow machine learning artificial intelligence",
+      "query": "optimal power flow neural network",
       "patterns": [
         "\\boptimal power flow\\b",
         "\\bsecurity.constrained.*dispatch",
@@ -19,7 +19,7 @@
     },
     {
       "id": "load-forecasting",
-      "query": "electric load forecasting day ahead intraday machine learning",
+      "query": "load forecasting deep learning",
       "patterns": [
         "\\bload forecast",
         "\\belectricity demand forecast",
@@ -37,15 +37,17 @@
     },
     {
       "id": "bess",
-      "query": "battery energy storage power system reinforcement learning control",
+      "query": "microgrid energy storage reinforcement learning",
       "patterns": [
         "\\bbattery energy storage",
-        "\\bBESS\\b"
+        "\\bBESS\\b",
+        "\\benergy storage\\b",
+        "\\bbatter(?:y|ies)\\b"
       ]
     },
     {
       "id": "converter-control",
-      "query": "grid power converter control artificial intelligence machine learning",
+      "query": "grid connected inverter reinforcement learning",
       "patterns": [
         "\\bconverter",
         "\\binverter",
@@ -69,7 +71,10 @@
     "Journal of Energy Storage",
     "IET Generation, Transmission & Distribution",
     "IET Renewable Power Generation",
-    "Protection and Control of Modern Power Systems"
+    "Protection and Control of Modern Power Systems",
+    "IEEE Access",
+    "IEEE Open Journal of Power Electronics",
+    "Sustainable Energy, Grids and Networks"
   ],
   "ai_patterns": [
     "\\bmachine learning\\b",
