@@ -1,5 +1,5 @@
 {
-  "lookback_days": 30,
+  "lookback_days": 45,
   "rows_per_topic": 50,
   "max_papers": 5,
   "preferred_publishers": [
