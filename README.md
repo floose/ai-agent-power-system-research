@@ -31,4 +31,8 @@ Documentation: [Crossref REST API](https://github.com/Crossref/rest-api-doc), [C
 
 ## Scope correction
 
-The initial 2026-10-12 candidate report contained off-topic records and must not be accepted. See `docs/screening-review.md`. The corrected search ranks by relevance and requires configured journal scope, exact in-window publication date, and separate title/abstract evidence for grid context, AI method and assigned topics. The JSON report records screening decisions. Conservative screening can produce zero candidates; journal additions and sparse metadata require expert review. This is still metadata screening, not verified scientific synthesis.
+The initial 2026-10-12 candidate report contained off-topic records and must not be accepted. See `docs/screening-review.md`. The corrected search ranks by relevance and requires journal prioritization, in-window publication-date interval, and separate title/abstract evidence for grid context, AI method and assigned topics. The JSON report records screening decisions. Conservative screening can produce zero candidates; journal additions and sparse metadata require expert review. This is still metadata screening, not verified scientific synthesis.
+
+## Expert triage
+
+The deterministic rule engine returns candidate, out_of_scope or pending, preserving matched evidence in the JSON audit. Journal membership affects priority, not eligibility. Routine triage makes no GPT calls. A compact `.handoff.json` file queues at most five candidates for future scientific reading. See [the expert-triage protocol](docs/expert-triage.md) for decisions, limitations and reviewed feedback. The current 15 examples are a development evaluation set, not a trained model or independent validation.
