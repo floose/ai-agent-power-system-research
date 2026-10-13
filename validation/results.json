@@ -1,0 +1,324 @@
+{
+  "run_date": "2026-10-13",
+  "live_search": true,
+  "rows_per_topic": 50,
+  "results": [
+    {
+      "doi": "10.1109/tsg.2017.2686012",
+      "title": "Deep Learning for Household Load Forecasting\u2014A Novel Pooling Deep RNN",
+      "journal": "IEEE Transactions on Smart Grid",
+      "label": "relevant",
+      "expected_topic": "load-forecasting",
+      "publication_date": [
+        2018,
+        9
+      ],
+      "window": [
+        "2018-01-01",
+        "2018-12-31"
+      ],
+      "abstract_available": false,
+      "search_found": false,
+      "search_error": null,
+      "screen_topics": [],
+      "screen_reason": "Exact publication date unavailable",
+      "source_url": "https://ieeexplore.ieee.org/document/7885096/"
+    },
+    {
+      "doi": "10.1109/tpwrs.2019.2946701",
+      "title": "Hybrid Ensemble Deep Learning for Deterministic and Probabilistic Low-Voltage Load Forecasting",
+      "journal": "IEEE Transactions on Power Systems",
+      "label": "relevant",
+      "expected_topic": "load-forecasting",
+      "publication_date": [
+        2020,
+        5
+      ],
+      "window": [
+        "2020-01-01",
+        "2020-12-31"
+      ],
+      "abstract_available": false,
+      "search_found": false,
+      "search_error": null,
+      "screen_topics": [],
+      "screen_reason": "Exact publication date unavailable",
+      "source_url": "https://ieeexplore.ieee.org/document/8863951/"
+    },
+    {
+      "doi": "10.1109/access.2019.2923796",
+      "title": "Improving Load Forecasting Process for a Power Distribution Network Using Hybrid AI and Deep Learning Algorithms",
+      "journal": "IEEE Access",
+      "label": "relevant",
+      "expected_topic": "load-forecasting",
+      "publication_date": [
+        2019
+      ],
+      "window": [
+        "2019-01-01",
+        "2019-12-31"
+      ],
+      "abstract_available": false,
+      "search_found": false,
+      "search_error": null,
+      "screen_topics": [],
+      "screen_reason": "Journal outside configured scope",
+      "source_url": "https://ieeexplore.ieee.org/document/8740999/"
+    },
+    {
+      "doi": "10.1109/tpwrd.2016.2543818",
+      "title": "Dynamic Line Rating Using Numerical Weather Predictions and Machine Learning: A Case Study",
+      "journal": "IEEE Transactions on Power Delivery",
+      "label": "relevant",
+      "expected_topic": "dynamic-line-rating",
+      "publication_date": [
+        2017,
+        2
+      ],
+      "window": [
+        "2017-01-01",
+        "2017-12-31"
+      ],
+      "abstract_available": false,
+      "search_found": true,
+      "search_error": null,
+      "screen_topics": [],
+      "screen_reason": "Exact publication date unavailable",
+      "source_url": "https://doi.org/10.1109/TPWRD.2016.2543818"
+    },
+    {
+      "doi": "10.1109/tpwrs.2020.3026379",
+      "title": "DeepOPF: A Deep Neural Network Approach for Security-Constrained DC Optimal Power Flow",
+      "journal": "IEEE Transactions on Power Systems",
+      "label": "relevant",
+      "expected_topic": "optimal-power-flow",
+      "publication_date": [
+        2021,
+        5
+      ],
+      "window": [
+        "2021-01-01",
+        "2021-12-31"
+      ],
+      "abstract_available": false,
+      "search_found": false,
+      "search_error": null,
+      "screen_topics": [],
+      "screen_reason": "Exact publication date unavailable",
+      "source_url": "https://scholars.cityu.edu.hk/en/publications/deepopf-a-deep-neural-network-approach-for-security-constrained-d/"
+    },
+    {
+      "doi": "10.1016/j.apenergy.2025.125637",
+      "title": "Review of machine learning techniques for optimal power flow",
+      "journal": "Applied Energy",
+      "label": "relevant",
+      "expected_topic": "optimal-power-flow",
+      "publication_date": [
+        2025,
+        6
+      ],
+      "window": [
+        "2025-01-01",
+        "2025-12-31"
+      ],
+      "abstract_available": false,
+      "search_found": true,
+      "search_error": null,
+      "screen_topics": [],
+      "screen_reason": "Exact publication date unavailable",
+      "source_url": "https://www.sciencedirect.com/science/article/pii/S0306261925003678"
+    },
+    {
+      "doi": "10.1016/j.apenergy.2024.123435",
+      "title": "Energy management of a microgrid considering nonlinear losses in batteries through Deep Reinforcement Learning",
+      "journal": "Applied Energy",
+      "label": "relevant",
+      "expected_topic": "bess",
+      "publication_date": [
+        2024,
+        8
+      ],
+      "window": [
+        "2024-01-01",
+        "2024-12-31"
+      ],
+      "abstract_available": false,
+      "search_found": false,
+      "search_error": null,
+      "screen_topics": [],
+      "screen_reason": "Exact publication date unavailable",
+      "source_url": "https://doi.org/10.1016/j.apenergy.2024.123435"
+    },
+    {
+      "doi": "10.1016/j.segan.2020.100413",
+      "title": "Deep reinforcement learning for energy management in a microgrid with flexible demand",
+      "journal": "Sustainable Energy, Grids and Networks",
+      "label": "relevant",
+      "expected_topic": "bess",
+      "publication_date": [
+        2021,
+        3
+      ],
+      "window": [
+        "2021-01-01",
+        "2021-12-31"
+      ],
+      "abstract_available": false,
+      "search_found": false,
+      "search_error": null,
+      "screen_topics": [],
+      "screen_reason": "Journal outside configured scope",
+      "source_url": "https://doi.org/10.1016/j.segan.2020.100413"
+    },
+    {
+      "doi": "10.1109/access.2024.3364058",
+      "title": "Deep Reinforcement Learning Based Control of a Grid Connected Inverter With LCL-Filter for Renewable Solar Applications",
+      "journal": "IEEE Access",
+      "label": "relevant",
+      "expected_topic": "converter-control",
+      "publication_date": [
+        2024
+      ],
+      "window": [
+        "2024-01-01",
+        "2024-12-31"
+      ],
+      "abstract_available": false,
+      "search_found": false,
+      "search_error": null,
+      "screen_topics": [],
+      "screen_reason": "Journal outside configured scope",
+      "source_url": "https://doi.org/10.1109/ACCESS.2024.3364058"
+    },
+    {
+      "doi": "10.1109/ojpel.2026.3684829",
+      "title": "Model-Free Deep Reinforcement Learning Control for Grid-Connected Packed U-Cell Multilevel Inverters",
+      "journal": "IEEE Open Journal of Power Electronics",
+      "label": "relevant",
+      "expected_topic": "converter-control",
+      "publication_date": [
+        2026
+      ],
+      "window": [
+        "2026-01-01",
+        "2026-12-31"
+      ],
+      "abstract_available": false,
+      "search_found": false,
+      "search_error": null,
+      "screen_topics": [],
+      "screen_reason": "Journal outside configured scope",
+      "source_url": "https://research.tudelft.nl/en/publications/model-free-deep-reinforcement-learning-control-for-grid-connected/"
+    },
+    {
+      "doi": "10.1002/smtd.71113",
+      "title": "Unveiling Hidden Patterns in Electrode\u2010Electrolyte Interphase Chemistry and Architecture Through Machine Learning\u2010Assisted Mass Spectrometry Analysis",
+      "journal": "Small Methods",
+      "label": "irrelevant",
+      "expected_topic": null,
+      "publication_date": [
+        2026,
+        10,
+        12
+      ],
+      "window": [
+        "2026-01-01",
+        "2026-12-31"
+      ],
+      "abstract_available": true,
+      "search_found": null,
+      "search_error": null,
+      "screen_topics": [],
+      "screen_reason": "Journal outside configured scope",
+      "source_url": "https://doi.org/10.1002/smtd.71113"
+    },
+    {
+      "doi": "10.1007/s10915-026-03482-7",
+      "title": "Orthogonally Constrained Operator Learning for Bias-Aware Digital Twins: A PBDW-DeepONet Framework",
+      "journal": "Journal of Scientific Computing",
+      "label": "irrelevant",
+      "expected_topic": null,
+      "publication_date": [
+        2026,
+        10,
+        12
+      ],
+      "window": [
+        "2026-01-01",
+        "2026-12-31"
+      ],
+      "abstract_available": false,
+      "search_found": null,
+      "search_error": null,
+      "screen_topics": [],
+      "screen_reason": "Journal outside configured scope",
+      "source_url": "https://doi.org/10.1007/s10915-026-03482-7"
+    },
+    {
+      "doi": "10.1007/s11665-026-15126-w",
+      "title": "The Development of Dynamic Constitutive Models for Inconel 690 Based on Isothermal True Stress-Strain Curves",
+      "journal": "Journal of Materials Engineering and Performance",
+      "label": "irrelevant",
+      "expected_topic": null,
+      "publication_date": [
+        2026,
+        10,
+        12
+      ],
+      "window": [
+        "2026-01-01",
+        "2026-12-31"
+      ],
+      "abstract_available": false,
+      "search_found": null,
+      "search_error": null,
+      "screen_topics": [],
+      "screen_reason": "Journal outside configured scope",
+      "source_url": "https://doi.org/10.1007/s11665-026-15126-w"
+    },
+    {
+      "doi": "10.1007/s11784-026-01348-x",
+      "title": "Bifurcation of periodic and antiperiodic solutions in non-autonomous potential-type delay systems",
+      "journal": "Journal of Fixed Point Theory and Applications",
+      "label": "irrelevant",
+      "expected_topic": null,
+      "publication_date": [
+        2026,
+        10,
+        12
+      ],
+      "window": [
+        "2026-01-01",
+        "2026-12-31"
+      ],
+      "abstract_available": false,
+      "search_found": null,
+      "search_error": null,
+      "screen_topics": [],
+      "screen_reason": "Journal outside configured scope",
+      "source_url": "https://doi.org/10.1007/s11784-026-01348-x"
+    },
+    {
+      "doi": "10.1007/s12046-026-03412-1",
+      "title": "Study on marketing dynamics on sales of electric vehicles and SWOT analysis",
+      "journal": "S\u0101dhan\u0101",
+      "label": "irrelevant",
+      "expected_topic": null,
+      "publication_date": [
+        2026,
+        10,
+        12
+      ],
+      "window": [
+        "2026-01-01",
+        "2026-12-31"
+      ],
+      "abstract_available": false,
+      "search_found": null,
+      "search_error": null,
+      "screen_topics": [],
+      "screen_reason": "Journal outside configured scope",
+      "source_url": "https://doi.org/10.1007/s12046-026-03412-1"
+    }
+  ]
+}
