@@ -1,0 +1,349 @@
+[
+  {
+    "label": "relevant",
+    "metadata": {
+      "DOI": "10.1109/tsg.2017.2686012",
+      "type": "journal-article",
+      "title": [
+        "Deep Learning for Household Load Forecasting\u2014A Novel Pooling Deep RNN"
+      ],
+      "container-title": [
+        "IEEE Transactions on Smart Grid"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2018,
+            9
+          ]
+        ]
+      }
+    },
+    "expected_topic": "load-forecasting",
+    "source_url": "https://ieeexplore.ieee.org/document/7885096/"
+  },
+  {
+    "label": "relevant",
+    "metadata": {
+      "DOI": "10.1109/tpwrs.2019.2946701",
+      "type": "journal-article",
+      "title": [
+        "Hybrid Ensemble Deep Learning for Deterministic and Probabilistic Low-Voltage Load Forecasting"
+      ],
+      "container-title": [
+        "IEEE Transactions on Power Systems"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2020,
+            5
+          ]
+        ]
+      }
+    },
+    "expected_topic": "load-forecasting",
+    "source_url": "https://ieeexplore.ieee.org/document/8863951/"
+  },
+  {
+    "label": "relevant",
+    "metadata": {
+      "DOI": "10.1109/access.2019.2923796",
+      "type": "journal-article",
+      "title": [
+        "Improving Load Forecasting Process for a Power Distribution Network Using Hybrid AI and Deep Learning Algorithms"
+      ],
+      "container-title": [
+        "IEEE Access"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2019
+          ]
+        ]
+      }
+    },
+    "expected_topic": "load-forecasting",
+    "source_url": "https://ieeexplore.ieee.org/document/8740999/"
+  },
+  {
+    "label": "relevant",
+    "metadata": {
+      "DOI": "10.1109/tpwrd.2016.2543818",
+      "type": "journal-article",
+      "title": [
+        "Dynamic Line Rating Using Numerical Weather Predictions and Machine Learning: A Case Study"
+      ],
+      "container-title": [
+        "IEEE Transactions on Power Delivery"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2017,
+            2
+          ]
+        ]
+      }
+    },
+    "expected_topic": "dynamic-line-rating",
+    "source_url": "https://doi.org/10.1109/TPWRD.2016.2543818"
+  },
+  {
+    "label": "relevant",
+    "metadata": {
+      "DOI": "10.1109/tpwrs.2020.3026379",
+      "type": "journal-article",
+      "title": [
+        "DeepOPF: A Deep Neural Network Approach for Security-Constrained DC Optimal Power Flow"
+      ],
+      "container-title": [
+        "IEEE Transactions on Power Systems"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            5
+          ]
+        ]
+      }
+    },
+    "expected_topic": "optimal-power-flow",
+    "source_url": "https://scholars.cityu.edu.hk/en/publications/deepopf-a-deep-neural-network-approach-for-security-constrained-d/"
+  },
+  {
+    "label": "relevant",
+    "metadata": {
+      "DOI": "10.1016/j.apenergy.2025.125637",
+      "type": "journal-article",
+      "title": [
+        "Review of machine learning techniques for optimal power flow"
+      ],
+      "container-title": [
+        "Applied Energy"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            6
+          ]
+        ]
+      }
+    },
+    "expected_topic": "optimal-power-flow",
+    "source_url": "https://www.sciencedirect.com/science/article/pii/S0306261925003678"
+  },
+  {
+    "label": "relevant",
+    "metadata": {
+      "DOI": "10.1016/j.apenergy.2024.123435",
+      "type": "journal-article",
+      "title": [
+        "Energy management of a microgrid considering nonlinear losses in batteries through Deep Reinforcement Learning"
+      ],
+      "container-title": [
+        "Applied Energy"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            8
+          ]
+        ]
+      }
+    },
+    "expected_topic": "bess",
+    "source_url": "https://doi.org/10.1016/j.apenergy.2024.123435"
+  },
+  {
+    "label": "relevant",
+    "metadata": {
+      "DOI": "10.1016/j.segan.2020.100413",
+      "type": "journal-article",
+      "title": [
+        "Deep reinforcement learning for energy management in a microgrid with flexible demand"
+      ],
+      "container-title": [
+        "Sustainable Energy, Grids and Networks"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            3
+          ]
+        ]
+      }
+    },
+    "expected_topic": "bess",
+    "source_url": "https://doi.org/10.1016/j.segan.2020.100413"
+  },
+  {
+    "label": "relevant",
+    "metadata": {
+      "DOI": "10.1109/access.2024.3364058",
+      "type": "journal-article",
+      "title": [
+        "Deep Reinforcement Learning Based Control of a Grid Connected Inverter With LCL-Filter for Renewable Solar Applications"
+      ],
+      "container-title": [
+        "IEEE Access"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2024
+          ]
+        ]
+      }
+    },
+    "expected_topic": "converter-control",
+    "source_url": "https://doi.org/10.1109/ACCESS.2024.3364058"
+  },
+  {
+    "label": "relevant",
+    "metadata": {
+      "DOI": "10.1109/ojpel.2026.3684829",
+      "type": "journal-article",
+      "title": [
+        "Model-Free Deep Reinforcement Learning Control for Grid-Connected Packed U-Cell Multilevel Inverters"
+      ],
+      "container-title": [
+        "IEEE Open Journal of Power Electronics"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      }
+    },
+    "expected_topic": "converter-control",
+    "source_url": "https://research.tudelft.nl/en/publications/model-free-deep-reinforcement-learning-control-for-grid-connected/"
+  },
+  {
+    "label": "irrelevant",
+    "metadata": {
+      "DOI": "10.1002/smtd.71113",
+      "type": "journal-article",
+      "title": [
+        "Unveiling Hidden Patterns in Electrode\u2010Electrolyte Interphase Chemistry and Architecture Through Machine Learning\u2010Assisted Mass Spectrometry Analysis"
+      ],
+      "container-title": [
+        "Small Methods"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            12
+          ]
+        ]
+      }
+    },
+    "expected_topic": null,
+    "source_url": "https://doi.org/10.1002/smtd.71113"
+  },
+  {
+    "label": "irrelevant",
+    "metadata": {
+      "DOI": "10.1007/s10915-026-03482-7",
+      "type": "journal-article",
+      "title": [
+        "Orthogonally Constrained Operator Learning for Bias-Aware Digital Twins: A PBDW-DeepONet Framework"
+      ],
+      "container-title": [
+        "Journal of Scientific Computing"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            12
+          ]
+        ]
+      }
+    },
+    "expected_topic": null,
+    "source_url": "https://doi.org/10.1007/s10915-026-03482-7"
+  },
+  {
+    "label": "irrelevant",
+    "metadata": {
+      "DOI": "10.1007/s11665-026-15126-w",
+      "type": "journal-article",
+      "title": [
+        "The Development of Dynamic Constitutive Models for Inconel 690 Based on Isothermal True Stress-Strain Curves"
+      ],
+      "container-title": [
+        "Journal of Materials Engineering and Performance"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            12
+          ]
+        ]
+      }
+    },
+    "expected_topic": null,
+    "source_url": "https://doi.org/10.1007/s11665-026-15126-w"
+  },
+  {
+    "label": "irrelevant",
+    "metadata": {
+      "DOI": "10.1007/s11784-026-01348-x",
+      "type": "journal-article",
+      "title": [
+        "Bifurcation of periodic and antiperiodic solutions in non-autonomous potential-type delay systems"
+      ],
+      "container-title": [
+        "Journal of Fixed Point Theory and Applications"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            12
+          ]
+        ]
+      }
+    },
+    "expected_topic": null,
+    "source_url": "https://doi.org/10.1007/s11784-026-01348-x"
+  },
+  {
+    "label": "irrelevant",
+    "metadata": {
+      "DOI": "10.1007/s12046-026-03412-1",
+      "type": "journal-article",
+      "title": [
+        "Study on marketing dynamics on sales of electric vehicles and SWOT analysis"
+      ],
+      "container-title": [
+        "S\u0101dhan\u0101"
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            12
+          ]
+        ]
+      }
+    },
+    "expected_topic": null,
+    "source_url": "https://doi.org/10.1007/s12046-026-03412-1"
+  }
+]
