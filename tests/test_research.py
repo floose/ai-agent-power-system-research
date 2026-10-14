@@ -54,9 +54,16 @@ class Tests(unittest.TestCase):
             {'title': ['Optimal power flow for power systems']},
             {'title': ['Machine learning power systems with generic digital twins']},
             {'published': {'date-parts': [[2026, 2, 1]]}},
-            {'published': {'date-parts': [[2026, 1]]}},
         ]:
             self.assertEqual(screen({**ITEM, **fields}, CONFIG, '2026-01-01', '2026-01-30')[0], [])
+    def test_partial_dates(self):
+        month = {**ITEM, 'published': {'date-parts': [[2026, 1]]}}
+        self.assertEqual(screen(month, CONFIG, '2026-01-01', '2026-01-31')[0], ['opf'])
+        self.assertEqual(screen(month, CONFIG, '2026-01-15', '2026-01-31')[0], [])
+        year = {**ITEM, 'published': {'date-parts': [[2026]]}}
+        self.assertEqual(screen(year, CONFIG, '2026-01-01', '2026-12-31')[0], ['opf'])
+        self.assertEqual(screen(year, CONFIG, '2026-01-01', '2026-02-01')[0], [])
+        self.assertEqual(screen(year, CONFIG, '2025-01-01', '2025-12-31')[0], [])
     def test_empty(self):
         self.assertIn('No new DOI-validated', markdown([], 'start', 'end'))
 if __name__ == '__main__': unittest.main()

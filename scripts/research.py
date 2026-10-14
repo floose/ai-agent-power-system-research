@@ -1,5 +1,6 @@
 """Crossref candidate discovery; never infer scientific results from metadata."""
 import argparse
+import calendar
 import html
 from datetime import date, timedelta
 import json
@@ -66,14 +67,23 @@ def screen(item, config, since, until):
     if not any(name.casefold() in approved for name in journals):
         return [], 'Journal outside configured scope'
     parts = item.get('published', {}).get('date-parts', [[]])[0]
-    if len(parts) != 3:
-        return [], 'Exact publication date unavailable'
     try:
-        published = date(*parts)
+        if len(parts) == 1:
+            earliest, latest = date(parts[0], 1, 1), date(parts[0], 12, 31)
+        elif len(parts) == 2:
+            earliest = date(parts[0], parts[1], 1)
+            latest = date(parts[0], parts[1], calendar.monthrange(*parts)[1])
+        elif len(parts) == 3:
+            earliest = latest = date(*parts)
+        else:
+            return [], 'Publication date unavailable'
     except (ValueError, TypeError):
         return [], 'Invalid publication date'
-    if not date.fromisoformat(str(since)) <= published <= date.fromisoformat(str(until)):
+    lower, upper = date.fromisoformat(str(since)), date.fromisoformat(str(until))
+    if latest < lower or earliest > upper:
         return [], 'Publication date outside report window'
+    if earliest < lower or latest > upper:
+        return [], 'Partial publication date overlaps window boundary; manual review required'
     text = html.unescape(re.sub(r'<[^>]+>', ' ', ' '.join(item.get('title', [])) + ' ' + item.get('abstract', '')))
     matches = lambda patterns: any(re.search(pattern, text, re.I) for pattern in patterns)
     if not matches(config['grid_patterns']):
@@ -127,7 +137,7 @@ def markdown(papers, since, until):
     lines = [f'# Power Systems AI Research — {until}', '',
         f'Publication window: {since} to {until}. Discovery source: Crossref.', '',
         'Candidate report for expert review. DOI registration does not establish peer review, relevance, or scientific validity.', '',
-        'Candidates passed journal, exact publication-date, power-system context, AI-method and topic screening in title/abstract. This is not full-text acceptance.',
+        'Candidates passed journal, publication-date interval, power-system context, AI-method and topic screening in title/abstract. This is not full-text acceptance.',
         'Search is bounded and non-exhaustive; publisher preference is not a quality guarantee.', '']
     if not papers:
         lines += ['No new DOI-validated candidates found in this bounded search.', '']
