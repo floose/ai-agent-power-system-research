@@ -103,5 +103,15 @@
     "\\belectric(?:ity|al)? load",
     "\\bload forecast",
     "\\bdynamic line rating"
+  ],
+  "rules_version": "expert-1",
+  "exclude_title_patterns": [
+    "\\belectrode.*electrolyte",
+    "\\binterphase chemistry",
+    "\\bmass spectrometry",
+    "\\bconstitutive model",
+    "\\bstress.strain",
+    "\\bmarketing",
+    "\\bSWOT\\b"
   ]
 }
