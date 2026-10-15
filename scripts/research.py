@@ -1,7 +1,5 @@
 """Crossref candidate discovery; never infer scientific results from metadata."""
 import argparse
-import calendar
-import html
 from datetime import date, timedelta
 import json
 from pathlib import Path
@@ -10,6 +8,11 @@ import time
 from urllib.error import HTTPError, URLError
 from urllib.parse import quote, urlencode
 from urllib.request import Request, urlopen
+
+try:
+    from .triage import triage
+except ImportError:
+    from triage import triage
 
 API = 'https://api.crossref.org'
 
@@ -61,37 +64,8 @@ class Crossref:
 
 
 def screen(item, config, since, until):
-    """Conservative metadata screening, never full-text scientific acceptance."""
-    journals = item.get('container-title', [])
-    approved = {name.casefold() for name in config['journals']}
-    if not any(name.casefold() in approved for name in journals):
-        return [], 'Journal outside configured scope'
-    parts = item.get('published', {}).get('date-parts', [[]])[0]
-    try:
-        if len(parts) == 1:
-            earliest, latest = date(parts[0], 1, 1), date(parts[0], 12, 31)
-        elif len(parts) == 2:
-            earliest = date(parts[0], parts[1], 1)
-            latest = date(parts[0], parts[1], calendar.monthrange(*parts)[1])
-        elif len(parts) == 3:
-            earliest = latest = date(*parts)
-        else:
-            return [], 'Publication date unavailable'
-    except (ValueError, TypeError):
-        return [], 'Invalid publication date'
-    lower, upper = date.fromisoformat(str(since)), date.fromisoformat(str(until))
-    if latest < lower or earliest > upper:
-        return [], 'Publication date outside report window'
-    if earliest < lower or latest > upper:
-        return [], 'Partial publication date overlaps window boundary; manual review required'
-    text = html.unescape(re.sub(r'<[^>]+>', ' ', ' '.join(item.get('title', [])) + ' ' + item.get('abstract', '')))
-    matches = lambda patterns: any(re.search(pattern, text, re.I) for pattern in patterns)
-    if not matches(config['grid_patterns']):
-        return [], 'No explicit power-system context in title/abstract'
-    if not matches(config['ai_patterns']):
-        return [], 'No explicit AI/learning method in title/abstract'
-    topics = [t['id'] for t in config['topics'] if matches(t['patterns'])]
-    return topics, 'Title/abstract screening passed' if topics else 'No supported topic in title/abstract'
+    decision = triage(item, config, since, until)
+    return (decision['topics'] if decision['status'] == 'candidate' else []), decision['reason']
 
 
 def discover(client, config, seen, since, until, audit=None):
@@ -111,13 +85,13 @@ def discover(client, config, seen, since, until, audit=None):
             if not preliminary_topics:
                 if audit is not None:
                     audit.append({'doi': doi, 'query_topic': topic['id'], 'reason': reason,
-                        'journal': item.get('container-title', []), 'topics': []})
+                        'title': item.get('title', [''])[0], 'journal': item.get('container-title', []), **triage(item, config, since, until)})
                 continue
             verified = client.validate(doi)  # API failures abort; no success-shaped partial report
             topics, reason = screen(verified, config, since, until)
             if audit is not None:
                 audit.append({'doi': doi, 'query_topic': topic['id'], 'reason': reason,
-                    'journal': verified.get('container-title', []), 'topics': topics})
+                    'title': verified.get('title', [''])[0], 'journal': verified.get('container-title', []), **triage(verified, config, since, until)})
             if not topics:
                 continue
             candidates[doi] = {'doi': doi, 'topics': topics,
@@ -130,14 +104,15 @@ def discover(client, config, seen, since, until, audit=None):
                 'source_metadata': verified}
     priority = config['preferred_publishers']
     return sorted(candidates.values(), key=lambda p: (
+        not any(j.casefold() in {name.casefold() for name in config['journals']} for j in p['source_metadata'].get('container-title', [])),
         not any(x.lower() in p['publisher'].lower() for x in priority), p['doi']))[:config['max_papers']]
 
 
-def markdown(papers, since, until):
+def markdown(papers, since, until, audit=None):
     lines = [f'# Power Systems AI Research — {until}', '',
         f'Publication window: {since} to {until}. Discovery source: Crossref.', '',
         'Candidate report for expert review. DOI registration does not establish peer review, relevance, or scientific validity.', '',
-        'Candidates passed journal, publication-date interval, power-system context, AI-method and topic screening in title/abstract. This is not full-text acceptance.',
+        'Candidates passed publication-date interval, power-system context, AI-method and topic screening in title/abstract. This is not full-text acceptance.',
         'Search is bounded and non-exhaustive; publisher preference is not a quality guarantee.', '']
     if not papers:
         lines += ['No new DOI-validated candidates found in this bounded search.', '']
@@ -152,6 +127,9 @@ def markdown(papers, since, until):
             'Peer review and topical relevance: require publisher/expert verification.',
             'Methods: not assessed. Results: not assessed. Relevance: not assessed.',
             'Before inclusion: read the source and record methods, benchmarks, quantitative results, limitations and supporting page/section.', '']
+    if audit is not None:
+        pending = {r['doi']: r for r in audit if r.get('status') == 'pending'}
+        lines += ['', '## Pending metadata review', '', f'{len(pending)} unique records require additional evidence. See JSON screening_audit; these records are not accepted papers.']
     return '\n'.join(lines)
 
 
@@ -176,7 +154,9 @@ def main():
     out.mkdir(parents=True, exist_ok=True)
     # State, metadata and report are committed together by the PR workflow.
     (out / f'{args.until}.json').write_text(json.dumps({'window': [str(since), str(args.until)], 'papers': papers, 'screening_audit': audit}, indent=2) + '\n')
-    (out / f'{args.until}.md').write_text(markdown(papers, since, args.until))
+    handoff = [{'doi': p['doi'], 'title': p['title'], 'journal': p['journal'], 'topics': p['topics'], 'source_url': p['url'], 'state': 'awaiting_source_reading'} for p in papers]
+    (out / f'{args.until}.handoff.json').write_text(json.dumps(handoff, indent=2) + '\n')
+    (out / f'{args.until}.md').write_text(markdown(papers, since, args.until, audit))
     seen_path.write_text(json.dumps(sorted({normalize_doi(d) for d in seen} | {p['doi'] for p in papers}), indent=2) + '\n')
 
 
