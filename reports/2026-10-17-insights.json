@@ -1,0 +1,53 @@
+{
+  "run_date": "2026-10-17",
+  "window": [
+    "2026-09-02",
+    "2026-10-17"
+  ],
+  "retrieval": "web-assisted; Python not executed",
+  "papers": [
+    {
+      "doi": "10.3389/fenrg.2026.1966347",
+      "title": "Collaborative short-term load forecasting with large and lightweight models under abrupt meteorological change scenarios",
+      "journal": "Frontiers in Energy Research",
+      "publication_date": "2026-09-28",
+      "date_basis": "Publisher publication date",
+      "source_url": "https://www.frontiersin.org/journals/energy-research/articles/10.3389/fenrg.2026.1966347/full",
+      "source_version": "Publisher HTML article",
+      "reading_status": "full_text_evidence_reviewed",
+      "topics": [
+        "load-forecasting"
+      ],
+      "evidence_locations": [
+        "Sections 2.2 and 4.1–4.3; Tables 2, 3 and 5"
+      ],
+      "verification": "Publisher DOI/title/journal/date match; accepted and reviewed status shown on article page. Separate correction/retraction database check not completed.",
+      "scientific_acceptance": "awaiting_expert_review"
+    },
+    {
+      "doi": "10.1038/s41598-026-66754-0",
+      "title": "A short-term spatiotemporal load forecasting method for power systems based on an improved salp swarm algorithm",
+      "journal": "Scientific Reports",
+      "publication_date": "2026-09-10",
+      "date_basis": "Publisher publication date",
+      "source_url": "https://www.nature.com/articles/s41598-026-66754-0",
+      "source_version": "Publisher early accepted article landing page; not final Version of Record",
+      "reading_status": "abstract_only",
+      "topics": [
+        "load-forecasting"
+      ],
+      "evidence_locations": [
+        "Abstract; publication/version notice; About this article"
+      ],
+      "verification": "Publisher DOI/title/journal/date match; peer-reviewed accepted status shown. Full text and independent status check pending.",
+      "scientific_acceptance": "awaiting_full_text_review"
+    }
+  ],
+  "pending": [
+    {
+      "doi": "10.1016/j.epsr.2026.113071",
+      "reason": "Online-first versus September issue date requires reconciliation",
+      "source_url": "https://www.sciencedirect.com/science/article/pii/S0378779626003640"
+    }
+  ]
+}
