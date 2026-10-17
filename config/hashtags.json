@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "format": "PascalCase ASCII hashtags; store without # in keywords and with # in hashtags",
+  "rules": [
+    "Reuse canonical tags across monthly issues; do not create synonyms for existing tags.",
+    "Apply article tags from verified subject/method evidence, not search-query membership.",
+    "Use 3–7 article tags plus general issue tags. Missing evidence must not be filled by inference.",
+    "Do not infer trends from tag counts without a defined corpus and time window."
+  ],
+  "tags": [
+    {
+      "tag": "ArtificialIntelligence",
+      "hashtag": "#ArtificialIntelligence"
+    },
+    {
+      "tag": "DayAheadForecasting",
+      "hashtag": "#DayAheadForecasting"
+    },
+    {
+      "tag": "GradientBoosting",
+      "hashtag": "#GradientBoosting"
+    },
+    {
+      "tag": "GraphNeuralNetworks",
+      "hashtag": "#GraphNeuralNetworks"
+    },
+    {
+      "tag": "HyperparameterOptimization",
+      "hashtag": "#HyperparameterOptimization"
+    },
+    {
+      "tag": "LoadForecasting",
+      "hashtag": "#LoadForecasting"
+    },
+    {
+      "tag": "Metaheuristics",
+      "hashtag": "#Metaheuristics"
+    },
+    {
+      "tag": "PowerSystems",
+      "hashtag": "#PowerSystems"
+    },
+    {
+      "tag": "ResidualLearning",
+      "hashtag": "#ResidualLearning"
+    },
+    {
+      "tag": "SpatiotemporalForecasting",
+      "hashtag": "#SpatiotemporalForecasting"
+    },
+    {
+      "tag": "WeatherAdaptation",
+      "hashtag": "#WeatherAdaptation"
+    }
+  ]
+}
