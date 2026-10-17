@@ -22,7 +22,26 @@
         "Sections 2.2 and 4.1–4.3; Tables 2, 3 and 5"
       ],
       "verification": "Publisher DOI/title/journal/date match; accepted and reviewed status shown on article page. Separate correction/retraction database check not completed.",
-      "scientific_acceptance": "awaiting_expert_review"
+      "scientific_acceptance": "awaiting_expert_review",
+      "hashtags": [
+        "#PowerSystems",
+        "#ArtificialIntelligence",
+        "#LoadForecasting",
+        "#WeatherAdaptation",
+        "#ResidualLearning",
+        "#GradientBoosting",
+        "#DayAheadForecasting"
+      ],
+      "keywords": [
+        "PowerSystems",
+        "ArtificialIntelligence",
+        "LoadForecasting",
+        "WeatherAdaptation",
+        "ResidualLearning",
+        "GradientBoosting",
+        "DayAheadForecasting"
+      ],
+      "relevance_assessment_type": "AI editorial interpretation; not an author finding"
     },
     {
       "doi": "10.1038/s41598-026-66754-0",
@@ -40,7 +59,26 @@
         "Abstract; publication/version notice; About this article"
       ],
       "verification": "Publisher DOI/title/journal/date match; peer-reviewed accepted status shown. Full text and independent status check pending.",
-      "scientific_acceptance": "awaiting_full_text_review"
+      "scientific_acceptance": "awaiting_full_text_review",
+      "hashtags": [
+        "#PowerSystems",
+        "#ArtificialIntelligence",
+        "#LoadForecasting",
+        "#GraphNeuralNetworks",
+        "#SpatiotemporalForecasting",
+        "#HyperparameterOptimization",
+        "#Metaheuristics"
+      ],
+      "keywords": [
+        "PowerSystems",
+        "ArtificialIntelligence",
+        "LoadForecasting",
+        "GraphNeuralNetworks",
+        "SpatiotemporalForecasting",
+        "HyperparameterOptimization",
+        "Metaheuristics"
+      ],
+      "relevance_assessment_type": "AI editorial interpretation; not an author finding"
     }
   ],
   "pending": [
@@ -49,5 +87,6 @@
       "reason": "Online-first versus September issue date requires reconciliation",
       "source_url": "https://www.sciencedirect.com/science/article/pii/S0378779626003640"
     }
-  ]
+  ],
+  "editorial_format": "Ideas, reported results, AI relevance assessment and source links; operational provenance remains in JSON"
 }
