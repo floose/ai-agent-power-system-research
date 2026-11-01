@@ -1,0 +1,53 @@
+[
+  {
+    "doi": "10.1016/j.epsr.2026.113222",
+    "title": "Meta-reinforcement learning for adaptive control of battery energy storage systems in multi-microgrids",
+    "journal": "Electric Power Systems Research",
+    "topics": [
+      "bess"
+    ],
+    "source_url": "https://doi.org/10.1016/j.epsr.2026.113222",
+    "state": "awaiting_source_reading"
+  },
+  {
+    "doi": "10.1016/j.epsr.2026.113262",
+    "title": "A hybrid deep learning approach for multi-load forecasting in high-altitude residential buildings",
+    "journal": "Electric Power Systems Research",
+    "topics": [
+      "load-forecasting"
+    ],
+    "source_url": "https://doi.org/10.1016/j.epsr.2026.113262",
+    "state": "awaiting_source_reading"
+  },
+  {
+    "doi": "10.1016/j.est.2026.123259",
+    "title": "Deep neural network-based ADRC method for battery energy storage system aided DC microgrid with PEM electrolyzer arrays integrated by multi-output flyback converter",
+    "journal": "Journal of Energy Storage",
+    "topics": [
+      "bess",
+      "converter-control"
+    ],
+    "source_url": "https://doi.org/10.1016/j.est.2026.123259",
+    "state": "awaiting_source_reading"
+  },
+  {
+    "doi": "10.1016/j.compeleceng.2026.111319",
+    "title": "Toward robust household load forecasting in smart grids using uncertainty-aware and cross-regional hybrid deep learning",
+    "journal": "Computers and Electrical Engineering",
+    "topics": [
+      "load-forecasting"
+    ],
+    "source_url": "https://doi.org/10.1016/j.compeleceng.2026.111319",
+    "state": "awaiting_source_reading"
+  },
+  {
+    "doi": "10.1016/j.engappai.2026.115485",
+    "title": "Self-attention-based temporal convolutional neural network for dynamic line rating forecast",
+    "journal": "Engineering Applications of Artificial Intelligence",
+    "topics": [
+      "dynamic-line-rating"
+    ],
+    "source_url": "https://doi.org/10.1016/j.engappai.2026.115485",
+    "state": "awaiting_source_reading"
+  }
+]
