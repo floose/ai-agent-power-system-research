@@ -1,0 +1,38 @@
+{
+  "run_date": "2026-11-01",
+  "window": [
+    "2026-09-17",
+    "2026-11-01"
+  ],
+  "retrieval": "web-assisted; Python not executed",
+  "papers": [
+    {
+      "doi": "10.1016/j.jer.2026.09.068",
+      "title": "Safe machine learning–based active network control for renewable dominated distribution systems: A UK distribution network case study",
+      "publication_date": "2026-10-07",
+      "source_url": "https://www.sciencedirect.com/science/article/pii/S2307187726005031",
+      "source_version": "In Press, Corrected Proof",
+      "reading_status": "abstract_and_publisher_preview_only",
+      "evidence_locations": [
+        "Abstract",
+        "Publication-status heading"
+      ],
+      "keywords": [
+        "PowerSystems",
+        "ArtificialIntelligence",
+        "LoadForecasting"
+      ],
+      "hashtags": [
+        "#PowerSystems",
+        "#ArtificialIntelligence",
+        "#LoadForecasting"
+      ],
+      "limitations": [
+        "Full article access returned HTTP 403; no quantitative appraisal",
+        "Independent correction/retraction check not completed"
+      ]
+    }
+  ],
+  "dashboard_ready": false,
+  "newsletter_editions": 2
+}
